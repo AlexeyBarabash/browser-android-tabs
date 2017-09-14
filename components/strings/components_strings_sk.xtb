@@ -14,13 +14,13 @@
 <translation id="1074497978438210769">Nezabezpečené</translation>
 <translation id="1080116354587839789">Prispôsobiť šírke</translation>
 <translation id="1103523840287552314">Vždy preložiť nasledujúci jazyk: <ph name="LANGUAGE" /></translation>
-<translation id="1107591249535594099">Ak je toto nastavenie začiarknuté, Chrome uloží kópiu karty na toto zariadenie, aby ste mohli vypĺňať formuláre rýchlejšie.</translation>
+<translation id="1107591249535594099">Ak je toto nastavenie začiarknuté, Brave uloží kópiu karty na toto zariadenie, aby ste mohli vypĺňať formuláre rýchlejšie.</translation>
 <translation id="1111153019813902504">Najnovšie záložky</translation>
 <translation id="1113869188872983271">&amp;Vrátiť späť zmenu poradia</translation>
 <translation id="1126551341858583091">Veľkosť súboru v lokálnom úložisku je <ph name="CRASH_SIZE" />.</translation>
 <translation id="112840717907525620">Vyrovnávacia pamäť pravidla je v poriadku</translation>
 <translation id="113188000913989374">Web <ph name="SITE" /> hovorí:</translation>
-<translation id="1132774398110320017">Nastavenia Automatického dopĺňania prehliadača Chrome...</translation>
+<translation id="1132774398110320017">Nastavenia Automatického dopĺňania prehliadača Brave...</translation>
 <translation id="1150979032973867961">Server nedokáže overiť, či ide o doménu <ph name="DOMAIN" />, operačný systém vášho počítača nedôveruje jej bezpečnostnému certifikátu. Môže to byť spôsobené nesprávnou konfiguráciou alebo tým, že vaše pripojenie zachytil útočník.</translation>
 <translation id="1151972924205500581">Vyžaduje sa heslo</translation>
 <translation id="1152921474424827756">Prístup ku <ph name="BEGIN_LINK" />kópii vo vyrovnávacej pamäti<ph name="END_LINK" /> stránky <ph name="URL" /></translation>
@@ -80,7 +80,7 @@
 <translation id="1594030484168838125">Zvoliť</translation>
 <translation id="161042844686301425">Azúrová</translation>
 <translation id="1620510694547887537">Kamera</translation>
-<translation id="1629803312968146339">Chcete, aby Chrome uložil túto kartu?</translation>
+<translation id="1629803312968146339">Chcete, aby Brave uložil túto kartu?</translation>
 <translation id="1639239467298939599">Prebieha načítavanie</translation>
 <translation id="1640180200866533862">Pravidlá pre používateľa</translation>
 <translation id="1640244768702815859">Skúste <ph name="BEGIN_LINK" />navštíviť domovskú stránku webu<ph name="END_LINK" />.</translation>
@@ -89,8 +89,8 @@
 <translation id="1645368109819982629">Nepodporovaný protokol</translation>
 <translation id="1655462015569774233">{1,plural, =1{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; platnosť jej bezpečnostného certifikátu vypršala včera. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom. Hodiny vášho počítača sú momentálne nastavené na <ph name="CURRENT_DATE" />. Je tento čas správny? Ak nie, opravte čas na hodinách systému a potom obnovte túto stránku.}few{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; platnosť jej bezpečnostného certifikátu vypršala pred # dňami. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom. Hodiny vášho počítača sú momentálne nastavené na <ph name="CURRENT_DATE" />. Je tento čas správny? Ak nie, opravte čas na hodinách systému a potom obnovte túto stránku.}many{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; platnosť jej bezpečnostného certifikátu vypršala pred # dňom. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom. Hodiny vášho počítača sú momentálne nastavené na <ph name="CURRENT_DATE" />. Je tento čas správny? Ak nie, opravte čas na hodinách systému a potom obnovte túto stránku.}other{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; platnosť jej bezpečnostného certifikátu vypršala pred # dňami. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom. Hodiny vášho počítača sú momentálne nastavené na <ph name="CURRENT_DATE" />. Je tento čas správny? Ak nie, opravte čas na hodinách systému a potom obnovte túto stránku.}}</translation>
 <translation id="1656489000284462475">Vyzdvihnutie</translation>
-<translation id="1663943134801823270">Karty a adresy pochádzajú z Chromu. Môžete ich spravovať v <ph name="BEGIN_LINK" />Nastaveniach<ph name="END_LINK" />.</translation>
-<translation id="1676269943528358898">Web <ph name="SITE" /> zvyčajne chráni vaše informácie pomocou šifrovania. Keď sa Chrome tentokrát pokúsil pripojiť k webu <ph name="SITE" />, odoslal späť nezvyčajné a nesprávne poverenia. Môže sa to stať vtedy, keď sa za web <ph name="SITE" /> snaží vydávať útočník alebo keď pripojenie preruší prihlasovacia obrazovka siete Wi‑Fi. Vaše informácie sú stále zabezpečené, pretože Chrome zastavil pripojenie ešte pred výmenou dát.</translation>
+<translation id="1663943134801823270">Karty a adresy pochádzajú z Brave. Môžete ich spravovať v <ph name="BEGIN_LINK" />Nastaveniach<ph name="END_LINK" />.</translation>
+<translation id="1676269943528358898">Web <ph name="SITE" /> zvyčajne chráni vaše informácie pomocou šifrovania. Keď sa Brave tentokrát pokúsil pripojiť k webu <ph name="SITE" />, odoslal späť nezvyčajné a nesprávne poverenia. Môže sa to stať vtedy, keď sa za web <ph name="SITE" /> snaží vydávať útočník alebo keď pripojenie preruší prihlasovacia obrazovka siete Wi‑Fi. Vaše informácie sú stále zabezpečené, pretože Brave zastavil pripojenie ešte pred výmenou dát.</translation>
 <translation id="168841957122794586">Certifikát servera obsahuje slabý kryptografický kľúč.</translation>
 <translation id="1706954506755087368">{1,plural, =1{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; jej certifikát by mal začať platiť od zajtra. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom.}few{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; jej certifikát by mal začať platiť o # dni. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom.}many{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; jej certifikát by mal začať platiť o # dňa. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom.}other{Tomuto serveru sa nepodarilo dokázať, že ide o doménu <ph name="DOMAIN" />; jej certifikát by mal začať platiť o # dní. Môže to byť následok nesprávnej konfigurácie alebo napadnutia vášho pripojenia útočníkom.}}</translation>
 <translation id="1710259589646384581">OS</translation>
@@ -140,7 +140,7 @@
 <translation id="2065985942032347596">Vyžaduje sa autentifikácia</translation>
 <translation id="2079545284768500474">Späť</translation>
 <translation id="20817612488360358">Používanie systémových nastavení servera proxy je nastavené, avšak je určená aj explicitná konfigurácia servera proxy.</translation>
-<translation id="2086652334978798447">Ak chcete získavať prispôsobený obsah navrhnutý Googlom, prihláste sa do Chromu.</translation>
+<translation id="2086652334978798447">Ak chcete získavať prispôsobený obsah navrhnutý Googlom, prihláste sa do Brave.</translation>
 <translation id="2094505752054353250">Domény sa nezhodujú</translation>
 <translation id="2096368010154057602">Správna oblasť</translation>
 <translation id="2108755909498034140">Reštartujte počítač</translation>
@@ -250,7 +250,7 @@
 <translation id="2955913368246107853">Zatvoriť panel pre vyhľadávanie</translation>
 <translation id="2958431318199492670">Konfigurácia siete nie je v súlade so štandardom ONC. Niektoré časti konfigurácie sa nemusia importovať.</translation>
 <translation id="2966678944701946121">Platnosť do <ph name="EXPIRATION_DATE_ABBR" />, pridané <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
-<translation id="2969319727213777354">Ak chcete nadviazať zabezpečené pripojenie, vaše hodiny musia byť nastavené správne. Je to preto, že certifikáty, ktoré webové stránky používajú na vlastnú identifikáciu, sú platné iba určitý čas. Keďže nie sú hodiny vášho zariadenia nastavené správne, Chrome nemôže tieto certifikáty overiť.</translation>
+<translation id="2969319727213777354">Ak chcete nadviazať zabezpečené pripojenie, vaše hodiny musia byť nastavené správne. Je to preto, že certifikáty, ktoré webové stránky používajú na vlastnú identifikáciu, sú platné iba určitý čas. Keďže nie sú hodiny vášho zariadenia nastavené správne, Brave nemôže tieto certifikáty overiť.</translation>
 <translation id="2972581237482394796">&amp;Dopredu</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, aktuálne vybraté. <ph name="ROW_CONTENT" /></translation>
 <translation id="2985306909656435243">Ak túto možnosť povolíte, Chromium uloží na tomto zariadení kópiu karty, aby ste mohli rýchlejšie vypĺňať formuláre.</translation>
@@ -266,7 +266,7 @@
 <translation id="3032412215588512954">Chcete tento web načítať znova?</translation>
 <translation id="3037605927509011580">Aj, chyba!</translation>
 <translation id="3041612393474885105">Informácie o certifikáte</translation>
-<translation id="3063697135517575841">Chromu sa nepodarilo overiť vašu kartu. Skúste to znova neskôr.</translation>
+<translation id="3063697135517575841">Brave sa nepodarilo overiť vašu kartu. Skúste to znova neskôr.</translation>
 <translation id="3064966200440839136">Ak zaplatíte pomocou externej aplikácie, opustíte režim inkognito. Chcete pokračovať?</translation>
 <translation id="3083099961703215236">{COUNT,plural, =0{Žiadne}=1{1 heslo}few{# heslá}many{# hesla}other{# hesiel}}</translation>
 <translation id="3093245981617870298">Ste v režime offline.</translation>
@@ -304,7 +304,7 @@
 <translation id="3340978935015468852">nastavenia</translation>
 <translation id="3345135638360864351">Vašu žiadosť o prístup k týmto webovým stránkam sa používateľovi <ph name="NAME" /> neporadilo odoslať. Skúste to znova neskôr.</translation>
 <translation id="3355823806454867987">Zmeniť nastavenia proxy...</translation>
-<translation id="3361596688432910856">Chrome <ph name="BEGIN_EMPHASIS" />nebude ukladať<ph name="END_EMPHASIS" /> tieto informácie:
+<translation id="3361596688432910856">Brave <ph name="BEGIN_EMPHASIS" />nebude ukladať<ph name="END_EMPHASIS" /> tieto informácie:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />vašu históriu prehliadania
           <ph name="LIST_ITEM" />súbory cookie a dáta webov
@@ -444,19 +444,19 @@
 <translation id="4377125064752653719">Pokúsili ste sa o prístup na stránky <ph name="DOMAIN" />, avšak certifikát poskytnutý serverom bol vydavateľom zrušený. Znamená to, že povereniam zabezpečenia, ktoré predložil server, sa celkom nedá dôverovať. Je možné, že komunikujete s útočníkom.</translation>
 <translation id="4394049700291259645">Zakázať</translation>
 <translation id="4406896451731180161">výsledky vyhľadávania</translation>
-<translation id="4424024547088906515">Server nedokáže overiť, či ide o doménu <ph name="DOMAIN" />, Chrome nedôveruje jej bezpečnostnému certifikátu. Môže to byť spôsobené nesprávnou konfiguráciou alebo tým, že vaše pripojenie zachytil útočník.</translation>
+<translation id="4424024547088906515">Server nedokáže overiť, či ide o doménu <ph name="DOMAIN" />, Brave nedôveruje jej bezpečnostnému certifikátu. Môže to byť spôsobené nesprávnou konfiguráciou alebo tým, že vaše pripojenie zachytil útočník.</translation>
 <translation id="4432688616882109544">Web <ph name="HOST_NAME" /> neakceptoval váš prihlasovací certifikát alebo nebol žiadny poskytnutý.</translation>
 <translation id="443673843213245140">Použitie servera proxy je zakázané, ale je určená explicitná konfigurácia servera proxy.</translation>
 <translation id="445100540951337728">Akceptované debetné karty</translation>
 <translation id="4506176782989081258">Chyba overenia: <ph name="VALIDATION_ERROR" /></translation>
 <translation id="4506599922270137252">Kontaktovať správcu systému</translation>
 <translation id="450710068430902550">Zdieľanie so správcom</translation>
-<translation id="4515275063822566619">Karty a adresy pochádzajú z Chromu a účtu Google (<ph name="ACCOUNT_EMAIL" />). Môžete ich spravovať v <ph name="BEGIN_LINK" />Nastaveniach<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">Karty a adresy pochádzajú z Brave a účtu Google (<ph name="ACCOUNT_EMAIL" />). Môžete ich spravovať v <ph name="BEGIN_LINK" />Nastaveniach<ph name="END_LINK" />.</translation>
 <translation id="4522570452068850558">Podrobnosti</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4558551763791394412">Skúste deaktivovať rozšírenia.</translation>
 <translation id="457875822857220463">Doručenie</translation>
-<translation id="4587425331216688090">Chcete adresu odstrániť z prehliadača Chrome?</translation>
+<translation id="4587425331216688090">Chcete adresu odstrániť z prehliadača Brave?</translation>
 <translation id="4592951414987517459">Vaše pripojenie k doméne <ph name="DOMAIN" /> je šifrované pomocou modernej šifrovacej súpravy.</translation>
 <translation id="4594403342090139922">&amp;Vrátiť späť odstránenie</translation>
 <translation id="4611292653554630842">Prihlásiť sa</translation>
@@ -481,7 +481,7 @@
 <translation id="4771973620359291008">Vyskytla sa neznáma chyba.</translation>
 <translation id="4800132727771399293">Skontrolujte dátum vypršania platnosti aj kód CVC a skúste to znova</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">Web <ph name="SITE" /> momentálne nemôžete navštíviť, pretože vrátil zakódované poverenia, ktoré Google Chrome nedokáže spracovať. Chyby siete a útoky sú zvyčajne dočasné, takže by táto stránka mala neskôr pravdepodobne fungovať.</translation>
+<translation id="4807049035289105102">Web <ph name="SITE" /> momentálne nemôžete navštíviť, pretože vrátil zakódované poverenia, ktoré Brave nedokáže spracovať. Chyby siete a útoky sú zvyčajne dočasné, takže by táto stránka mala neskôr pravdepodobne fungovať.</translation>
 <translation id="4813512666221746211">Chyba siete</translation>
 <translation id="4816492930507672669">Prispôsobiť stránke</translation>
 <translation id="483020001682031208">K dispozícii nie sú žiadne stránky Fyzického webu</translation>
@@ -501,7 +501,7 @@
 <translation id="4958444002117714549">Rozbaliť zoznam</translation>
 <translation id="4974590756084640048">Opätovne aktivovať upozornenia</translation>
 <translation id="4989809363548539747">Tento doplnok nie je podporovaný</translation>
-<translation id="5002932099480077015">Ak túto možnosť povolíte, Chrome bude uchovávať kópiu vašej karty na tomto zariadení na účely rýchlejšieho dopĺňania formulárov.</translation>
+<translation id="5002932099480077015">Ak túto možnosť povolíte, Brave bude uchovávať kópiu vašej karty na tomto zariadení na účely rýchlejšieho dopĺňania formulárov.</translation>
 <translation id="5018422839182700155">Táto stránka sa nedá otvoriť</translation>
 <translation id="5019198164206649151">Zlý stav záložného ukladacieho priestoru</translation>
 <translation id="5023310440958281426">Skontrolujte pravidlá správcu</translation>
@@ -530,7 +530,7 @@
 <translation id="5205222826937269299">Meno je povinný údaj</translation>
 <translation id="5222812217790122047">E-mailová adresa je povinný údaj</translation>
 <translation id="5251803541071282808">Cloud</translation>
-<translation id="5277279256032773186">Používate Chrome v práci? Firmy môžu spravovať nastavenia prehliadača Chrome pre svojich zamestnancov. Ďalšie informácie</translation>
+<translation id="5277279256032773186">Používate Brave v práci? Firmy môžu spravovať nastavenia prehliadača Brave pre svojich zamestnancov. Ďalšie informácie</translation>
 <translation id="5281113152797308730"><ph name="BEGIN_PARAGRAPH" />Postupujte podľa týchto krokov a softvér dočasne zakážte, aby ste mohli prejsť na daný web. Budete potrebovať oprávnenia správcu.<ph name="END_PARAGRAPH" />
 
     <ph name="BEGIN_LIST" />
@@ -539,7 +539,7 @@
     <ph name="LIST_ITEM" />V časti <ph name="BEGIN_BOLD" />Typ spustenia<ph name="END_BOLD" /> vyberte možnosť <ph name="BEGIN_BOLD" />Zakázané<ph name="END_BOLD" />.
     <ph name="LIST_ITEM" />V časti <ph name="BEGIN_BOLD" />Stav služby<ph name="END_BOLD" /> kliknite na možnosť <ph name="BEGIN_BOLD" />Zastaviť<ph name="END_BOLD" />.
     <ph name="LIST_ITEM" />Kliknite na možnosť <ph name="BEGIN_BOLD" />Použiť<ph name="END_BOLD" />, potom kliknite na <ph name="BEGIN_BOLD" />OK<ph name="END_BOLD" />.
-    <ph name="LIST_ITEM" />Ďalšie informácie o tom, ako natrvalo odstrániť softvér z počítača, nájdete v <ph name="BEGIN_LEARN_MORE_LINK" />centre pomoci Chrome<ph name="END_LEARN_MORE_LINK" />.
+    <ph name="LIST_ITEM" />Ďalšie informácie o tom, ako natrvalo odstrániť softvér z počítača, nájdete v <ph name="BEGIN_LEARN_MORE_LINK" />centre pomoci Brave<ph name="END_LEARN_MORE_LINK" />.
     <ph name="END_LIST" /></translation>
 <translation id="5297526204711817721">Vaše pripojenie k týmto stránkam nie je súkromné. Režim VR môžete kedykoľvek ukončiť, stačí odpojiť náhlavnú súpravu a stlačiť možnosť Späť.</translation>
 <translation id="5299298092464848405">Pri analýze pravidla sa vyskytla chyba</translation>
@@ -575,7 +575,7 @@
 <translation id="5560088892362098740">Dátum vypršania platnosti</translation>
 <translation id="5565735124758917034">Aktívne</translation>
 <translation id="5571083550517324815">Vyzdvihnutie na tejto adrese nie je možné. Vyberte inú adresu.</translation>
-<translation id="5572851009514199876">Začnite a prihláste sa do Chromu, aby skontroloval, či môžete navštíviť tento web.</translation>
+<translation id="5572851009514199876">Začnite a prihláste sa do Brave, aby skontroloval, či môžete navštíviť tento web.</translation>
 <translation id="5580958916614886209">Skontrolujte mesiac vypršania platnosti a skúste to znova</translation>
 <translation id="5586446728396275693">Žiadne uložené adresy</translation>
 <translation id="5595485650161345191">Upraviť adresu</translation>
@@ -665,8 +665,8 @@
 <translation id="6355080345576803305">Prepísanie verejnej relácie</translation>
 <translation id="6358450015545214790">Čo znamenajú tieto položky?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{1 ďalší návrh}few{# ďalšie návrhy}many{# ďalšieho návrhu}other{# ďalších návrhov}}</translation>
-<translation id="6387478394221739770">Máte záujem o skvelé nové funkcie prehliadača Chrome? Vyskúšajte verziu beta na stránke chrome.com/beta.</translation>
-<translation id="6397451950548600259">Softvér vo vašom počítači bráni Chromu bezpečne sa pripojiť k webu</translation>
+<translation id="6387478394221739770">Máte záujem o skvelé nové funkcie prehliadača Brave? Vyskúšajte verziu beta na stránke chrome.com/beta.</translation>
+<translation id="6397451950548600259">Softvér vo vašom počítači bráni Brave bezpečne sa pripojiť k webu</translation>
 <translation id="6404511346730675251">Upraviť záložku</translation>
 <translation id="6410264514553301377">Zadajte dátum vypršania platnosti a kód CVC karty <ph name="CREDIT_CARD" /></translation>
 <translation id="6414888972213066896">Opýtali ste sa svojho rodiča, či môžete navštíviť tento web</translation>
@@ -679,10 +679,10 @@
 <translation id="6456339708790392414">Vaša platba</translation>
 <translation id="6458467102616083041">Ignorované, pretože predvolený vyhľadávač je podľa pravidla zakázaný.</translation>
 <translation id="647261751007945333">Pravidlá zariadenia</translation>
-<translation id="6477321094435799029">Chrome na tejto stránke zaznamenal nezvyčajný kód a v záujme ochrany vašich osobných informácií (napr. hesiel, telefónnych čísel a kreditných kariet) ho zablokoval.</translation>
+<translation id="6477321094435799029">Brave na tejto stránke zaznamenal nezvyčajný kód a v záujme ochrany vašich osobných informácií (napr. hesiel, telefónnych čísel a kreditných kariet) ho zablokoval.</translation>
 <translation id="6489534406876378309">Spustiť nahrávanie správ o zlyhaní</translation>
 <translation id="6507833130742554667">Kreditné a debetné karty sú akceptované.</translation>
-<translation id="6508722015517270189">Reštartujte Chrome</translation>
+<translation id="6508722015517270189">Reštartujte Brave</translation>
 <translation id="6529602333819889595">&amp;Znova odstrániť</translation>
 <translation id="6534179046333460208">Návrhy Fyzického webu</translation>
 <translation id="6550675742724504774">Možnosti</translation>
@@ -795,7 +795,7 @@
 <translation id="7554791636758816595">Nová karta</translation>
 <translation id="7567204685887185387">Server nedokáže overiť, či ide o doménu <ph name="DOMAIN" />, bol zrejme vydaný falošný bezpečnostný certifikát. Môže to byť spôsobené nesprávnou konfiguráciou alebo tým, že vaše pripojenie zachytil útočník.</translation>
 <translation id="7568593326407688803">Táto stránka je v jazyku<ph name="ORIGINAL_LANGUAGE" />Chceli by ste ju preložiť?</translation>
-<translation id="7569952961197462199">Chcete kreditnú kartu odstrániť z prehliadača Chrome?</translation>
+<translation id="7569952961197462199">Chcete kreditnú kartu odstrániť z prehliadača Brave?</translation>
 <translation id="7569983096843329377">Čierna</translation>
 <translation id="7578104083680115302">Zaplaťte rýchlejšie na stránkach a v aplikáciách v rôznych službách pomocou kariet, ktoré ste si uložili na Googli.</translation>
 <translation id="7588950540487816470">Fyzický web</translation>
@@ -813,7 +813,7 @@
 <translation id="7667346355482952095">Vrátený token pravidla je prázdny alebo sa nezhoduje s aktuálnym tokenom</translation>
 <translation id="7668654391829183341">Neznáme zariadenie</translation>
 <translation id="7669271284792375604">Útočníci na tomto webe sa vás môžu pokúsiť podvodom presvedčiť, aby ste si nainštalovali programy poškodzujúce vaše prostredie prehliadania (napríklad zmenou domovskej stránky alebo zobrazovaním ďalších reklám na weboch, ktoré navštevujete).</translation>
-<translation id="7674629440242451245">Máte záujem o skvelé nové funkcie prehliadača Chrome? Vyskúšajte verziu pre vývojárov na stránke chrome.com/dev.</translation>
+<translation id="7674629440242451245">Máte záujem o skvelé nové funkcie prehliadača Brave? Vyskúšajte verziu pre vývojárov na stránke chrome.com/dev.</translation>
 <translation id="7682287625158474539">Dodacia</translation>
 <translation id="7701040980221191251">Žiadne</translation>
 <translation id="7704050614460855821"><ph name="BEGIN_LINK" />Prejsť na stránky <ph name="SITE" /> (nebezpečné)<ph name="END_LINK" /></translation>
@@ -835,7 +835,7 @@
 <translation id="780301667611848630">Nie, ďakujem</translation>
 <translation id="7805768142964895445">Stav</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Chcete návrh odstrániť z prehliadača Chrome?</translation>
+<translation id="7813600968533626083">Chcete návrh odstrániť z prehliadača Brave?</translation>
 <translation id="7815407501681723534">Nájdené výsledky (počet: <ph name="NUMBER_OF_RESULTS" />) pre dopyt „<ph name="SEARCH_STRING" />“: <ph name="SEARCH_RESULTS" /></translation>
 <translation id="785549533363645510">Nie ste však neviditeľný/-á. Prejdením do režimu inkognito neskryjete svoje prehliadanie pred zamestnávateľom, poskytovateľom internetových služieb ani pred navštívenými webmi.</translation>
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL" /> <ph name="FORMATTED_TOTAL_AMOUNT" /> <ph name="CURRENCY_CODE" /></translation>
@@ -901,7 +901,7 @@
 <translation id="8433057134996913067">Táto možnosť vás odhlási z väčšiny webov.</translation>
 <translation id="8437238597147034694">&amp;Vrátiť späť presunutie</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{1 kreditná karta}few{# kreditné karty}many{# kreditnej karty}other{# kreditných kariet}}</translation>
-<translation id="8483780878231876732">Ak chcete používať karty z účtu Google, prihláste sa do Chromu</translation>
+<translation id="8483780878231876732">Ak chcete používať karty z účtu Google, prihláste sa do Brave</translation>
 <translation id="8488350697529856933">Platí pre</translation>
 <translation id="8498891568109133222">Web <ph name="HOST_NAME" /> príliš dlho neodpovedal.</translation>
 <translation id="8503813439785031346">Meno používateľa</translation>
@@ -965,7 +965,7 @@
 <translation id="9078964945751709336">Treba zadať ďalšie informácie</translation>
 <translation id="9103872766612412690">Web <ph name="SITE" /> zvyčajne chráni vaše informácie pomocou šifrovania. Keď sa prehliadač Chromium tentokrát pokúsil pripojiť k webu <ph name="SITE" />, odoslal späť nezvyčajné a nesprávne poverenia. Môže sa to stať vtedy, keď sa za web <ph name="SITE" /> snaží vydávať útočník alebo keď pripojenie preruší prihlasovacia obrazovka siete Wi‑Fi. Vaše informácie sú stále zabezpečené, pretože prehliadač Chromium zastavil pripojenie ešte pred výmenou dát.</translation>
 <translation id="9137013805542155359">Zobraziť originál</translation>
-<translation id="9137248913990643158">Začnite a prihláste sa do Chromu ešte predtým, ako použijete túto aplikáciu.</translation>
+<translation id="9137248913990643158">Začnite a prihláste sa do Brave ešte predtým, ako použijete túto aplikáciu.</translation>
 <translation id="9148507642005240123">&amp;Vrátiť späť úpravu</translation>
 <translation id="9154194610265714752">Aktualizované</translation>
 <translation id="9157595877708044936">Prebieha nastavenie...</translation>

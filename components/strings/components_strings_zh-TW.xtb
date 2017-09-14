@@ -14,13 +14,13 @@
 <translation id="1074497978438210769">不安全</translation>
 <translation id="1080116354587839789">符合視窗寬度</translation>
 <translation id="1103523840287552314">一律翻譯<ph name="LANGUAGE" /></translation>
-<translation id="1107591249535594099">勾選後，Chrome 會在這個裝置上儲存您的信用卡複本，以便更快填寫資訊。</translation>
+<translation id="1107591249535594099">勾選後，Brave 會在這個裝置上儲存您的信用卡複本，以便更快填寫資訊。</translation>
 <translation id="1111153019813902504">最近使用過的書籤</translation>
 <translation id="1113869188872983271">復原重新排序(&amp;U)</translation>
 <translation id="1126551341858583091">佔用的本機儲存空間大小：<ph name="CRASH_SIZE" />。</translation>
 <translation id="112840717907525620">政策快取正確</translation>
 <translation id="113188000913989374"><ph name="SITE" /> 顯示：</translation>
-<translation id="1132774398110320017">Chrome 自動填入設定...</translation>
+<translation id="1132774398110320017">Brave 自動填入設定...</translation>
 <translation id="1150979032973867961">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得你電腦作業系統的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="1151972924205500581">請輸入密碼</translation>
 <translation id="1152921474424827756">存取 <ph name="URL" /> 的<ph name="BEGIN_LINK" />頁庫存檔副本<ph name="END_LINK" /></translation>
@@ -80,7 +80,7 @@
 <translation id="1594030484168838125">選擇</translation>
 <translation id="161042844686301425">青色</translation>
 <translation id="1620510694547887537">攝影機</translation>
-<translation id="1629803312968146339">您希望 Chrome 儲存這張信用卡嗎？</translation>
+<translation id="1629803312968146339">您希望 Brave 儲存這張信用卡嗎？</translation>
 <translation id="1639239467298939599">載入中</translation>
 <translation id="1640180200866533862">使用者政策</translation>
 <translation id="1640244768702815859">請嘗試<ph name="BEGIN_LINK" />造訪網站首頁<ph name="END_LINK" />。</translation>
@@ -89,8 +89,8 @@
 <translation id="1645368109819982629">不支援的通訊協定</translation>
 <translation id="1655462015569774233">{1,plural, =1{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證已在昨天過期。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。您電腦的時鐘目前設為 <ph name="CURRENT_DATE" />，這是正確的時間嗎？如果不是的話，請更新系統時鐘，然後重新整理這個網頁。}other{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證已在 # 天前過期。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。您電腦的時鐘目前設為 <ph name="CURRENT_DATE" />，這是正確的時間嗎？如果不是的話，請更新系統時鐘，然後重新整理這個網頁。}}</translation>
 <translation id="1656489000284462475">取件</translation>
-<translation id="1663943134801823270">信用卡和地址資訊皆來自 Chrome。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
-<translation id="1676269943528358898"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Google Chrome 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Google Chrome 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
+<translation id="1663943134801823270">信用卡和地址資訊皆來自 Brave。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
+<translation id="1676269943528358898"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Brave 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Brave 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
 <translation id="168841957122794586">伺服器憑證含有防護力薄弱的加密編譯金鑰。</translation>
 <translation id="1706954506755087368">{1,plural, =1{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證預定明天才生效。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。}other{這個伺服器無法證明所在網域是 <ph name="DOMAIN" />；伺服器的安全性憑證預定 # 天後才生效。這可能是因為設定錯誤，或是有攻擊者攔截您的連線。}}</translation>
 <translation id="1710259589646384581">作業系統</translation>
@@ -140,7 +140,7 @@
 <translation id="2065985942032347596">需要驗證</translation>
 <translation id="2079545284768500474">復原</translation>
 <translation id="20817612488360358">雖然系統 Proxy 設定已設為使用，不過也指定了明確 Proxy 設定。</translation>
-<translation id="2086652334978798447">如要取得個人化的 Google 推薦內容，請登入 Chrome。</translation>
+<translation id="2086652334978798447">如要取得個人化的 Google 推薦內容，請登入 Brave。</translation>
 <translation id="2094505752054353250">網域不符</translation>
 <translation id="2096368010154057602">省</translation>
 <translation id="2108755909498034140">重新啟動電腦</translation>
@@ -250,7 +250,7 @@
 <translation id="2955913368246107853">關閉搜尋列</translation>
 <translation id="2958431318199492670">網路設定未遵循 ONC 標準，系統可能無法匯入部分設定。</translation>
 <translation id="2966678944701946121">到期日：<ph name="EXPIRATION_DATE_ABBR" />，新增日期：<ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
-<translation id="2969319727213777354">您必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於您裝置的時鐘不正確，因此 Google Chrome 無法驗證這些憑證。</translation>
+<translation id="2969319727213777354">您必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於您裝置的時鐘不正確，因此 Brave 無法驗證這些憑證。</translation>
 <translation id="2972581237482394796">重做(&amp;R)</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />，目前已選取。<ph name="ROW_CONTENT" /></translation>
 <translation id="2985306909656435243">啟用後，Chromium 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
@@ -266,7 +266,7 @@
 <translation id="3032412215588512954">您要重新載入這個網站嗎？</translation>
 <translation id="3037605927509011580">糟糕！</translation>
 <translation id="3041612393474885105">憑證資訊</translation>
-<translation id="3063697135517575841">Chrome 目前無法驗證您的信用卡，請稍後再試。</translation>
+<translation id="3063697135517575841">Brave 目前無法驗證您的信用卡，請稍後再試。</translation>
 <translation id="3064966200440839136">即將離開無痕模式，改為使用外部應用程式付款，要繼續嗎？</translation>
 <translation id="3083099961703215236">{COUNT,plural, =0{無}=1{1 組密碼}other{# 組密碼}}</translation>
 <translation id="3093245981617870298">你處於離線狀態。</translation>
@@ -307,7 +307,7 @@
 <translation id="3340978935015468852">設定</translation>
 <translation id="3345135638360864351">無法將您的網站存取要求傳送給<ph name="NAME" />，請再試一次。</translation>
 <translation id="3355823806454867987">變更 Proxy 設定...</translation>
-<translation id="3361596688432910856">Chrome <ph name="BEGIN_EMPHASIS" />不會儲存<ph name="END_EMPHASIS" />下列資訊：
+<translation id="3361596688432910856">Brave <ph name="BEGIN_EMPHASIS" />不會儲存<ph name="END_EMPHASIS" />下列資訊：
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />你的瀏覽紀錄
           <ph name="LIST_ITEM" />Cookie 和網站資料
@@ -448,19 +448,19 @@
 <translation id="4377125064752653719">你嘗試前往 <ph name="DOMAIN" />，但是發行者已撤銷伺服器提供的憑證。在這種情況下，請勿信任伺服器提供的安全性憑證，因為你的連線對象可能是攻擊者的電腦。</translation>
 <translation id="4394049700291259645">停用</translation>
 <translation id="4406896451731180161">搜尋結果</translation>
-<translation id="4424024547088906515">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Chrome 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
+<translation id="4424024547088906515">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證未取得 Brave 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> 不接受你的登入憑證，或是你可能未提供登入憑證。</translation>
 <translation id="443673843213245140">雖然已停用 Proxy，不過已指定明確 Proxy 設定。</translation>
 <translation id="445100540951337728">接受的簽帳金融卡</translation>
 <translation id="4506176782989081258">驗證錯誤：<ph name="VALIDATION_ERROR" /></translation>
 <translation id="4506599922270137252">與系統管理員聯絡</translation>
 <translation id="450710068430902550">與管理員分享</translation>
-<translation id="4515275063822566619">信用卡和地址資訊皆來自 Chrome 和你的 Google 帳戶 (<ph name="ACCOUNT_EMAIL" />)。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
+<translation id="4515275063822566619">信用卡和地址資訊皆來自 Brave 和你的 Google 帳戶 (<ph name="ACCOUNT_EMAIL" />)。你可以在<ph name="BEGIN_LINK" />設定<ph name="END_LINK" />頁面管理這些資訊。</translation>
 <translation id="4522570452068850558">詳細資訊</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4558551763791394412">試試看停用擴充功能。</translation>
 <translation id="457875822857220463">快遞</translation>
-<translation id="4587425331216688090">要從 Chrome 中移除地址嗎？</translation>
+<translation id="4587425331216688090">要從 Brave 中移除地址嗎？</translation>
 <translation id="4592951414987517459">您的 <ph name="DOMAIN" /> 連線使用新型加密套件進行加密。</translation>
 <translation id="4594403342090139922">復原刪除(&amp;U)</translation>
 <translation id="4611292653554630842">登入</translation>
@@ -485,7 +485,7 @@
 <translation id="4771973620359291008">發生不明的錯誤。</translation>
 <translation id="4800132727771399293">請檢查您的有效期限和信用卡安全碼，然後再試一次</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">您目前無法造訪 <ph name="SITE" />，因為這個網站傳送的憑證是亂碼，Google Chrome 無法處理。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會正常運作。</translation>
+<translation id="4807049035289105102">您目前無法造訪 <ph name="SITE" />，因為這個網站傳送的憑證是亂碼，Brave 無法處理。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會正常運作。</translation>
 <translation id="4813512666221746211">網路錯誤</translation>
 <translation id="4816492930507672669">依頁面大小自動調整</translation>
 <translation id="483020001682031208">沒有可顯示的實體化網路頁面</translation>
@@ -505,7 +505,7 @@
 <translation id="4958444002117714549">展開清單</translation>
 <translation id="4974590756084640048">重新啟用警告功能</translation>
 <translation id="4989809363548539747">這是不支援的外掛程式</translation>
-<translation id="5002932099480077015">啟用後，Chrome 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="5002932099480077015">啟用後，Brave 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="5018422839182700155">無法開啟這個網頁</translation>
 <translation id="5019198164206649151">備份儲存狀態不佳</translation>
 <translation id="5023310440958281426">請查看你的管理員政策</translation>
@@ -534,7 +534,7 @@
 <translation id="5205222826937269299">請輸入名稱</translation>
 <translation id="5222812217790122047">請輸入電子郵件地址</translation>
 <translation id="5251803541071282808">雲端</translation>
-<translation id="5277279256032773186">在工作環境使用 Chrome 嗎？企業可以管理員工的 Chrome 設定。瞭解詳情</translation>
+<translation id="5277279256032773186">在工作環境使用 Brave 嗎？企業可以管理員工的 Brave 設定。瞭解詳情</translation>
 <translation id="5281113152797308730"><ph name="BEGIN_PARAGRAPH" />請按照以下步驟暫時停用該軟體，以便順利連上網路。你需要管理員權限。<ph name="END_PARAGRAPH" />
 
     <ph name="BEGIN_LIST" />
@@ -543,7 +543,7 @@
     <ph name="LIST_ITEM" />在「啟動類型」<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />之下，選取 [已停用]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />
     <ph name="LIST_ITEM" />在「服務狀態」<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />之下，按一下 [停止]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />
     <ph name="LIST_ITEM" />依序按一下 [套用]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" /> 和 [確定]<ph name="BEGIN_BOLD" /><ph name="END_BOLD" />
-    <ph name="LIST_ITEM" />前往 <ph name="BEGIN_LEARN_MORE_LINK" />Chrome 說明中心<ph name="END_LEARN_MORE_LINK" />瞭解如何將該軟體從你的電腦上永久移除
+    <ph name="LIST_ITEM" />前往 <ph name="BEGIN_LEARN_MORE_LINK" />Brave 說明中心<ph name="END_LEARN_MORE_LINK" />瞭解如何將該軟體從你的電腦上永久移除
     <ph name="END_LIST" /></translation>
 <translation id="5297526204711817721">你與這個網站之間的連線不是私人連線。你隨時可以摘下頭戴式裝置，然後按下返回鍵退出 VR 模式。</translation>
 <translation id="5299298092464848405">解析政策時發生錯誤</translation>
@@ -579,7 +579,7 @@
 <translation id="5560088892362098740">到期日</translation>
 <translation id="5565735124758917034">管理中</translation>
 <translation id="5571083550517324815">無法在這個地址取件，請改用其他地址。</translation>
-<translation id="5572851009514199876">請啟動 Chrome 並登入帳戶，Chrome 將確認你是否可存取這個網站。</translation>
+<translation id="5572851009514199876">請啟動 Brave 並登入帳戶，Brave 將確認你是否可存取這個網站。</translation>
 <translation id="5580958916614886209">請檢查信用卡到期月份，然後再試一次</translation>
 <translation id="5586446728396275693">沒有已儲存的地址</translation>
 <translation id="5595485650161345191">編輯地址</translation>
@@ -670,8 +670,8 @@
 <translation id="6355080345576803305">公開工作階段覆寫</translation>
 <translation id="6358450015545214790">我需要進一步資訊</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{以及另外 1 個建議項目}other{以及另外 # 個建議項目}}</translation>
-<translation id="6387478394221739770">想搶先試用酷炫的 Chrome 新功能嗎？請前往 chrome.com/beta 安裝測試版。</translation>
-<translation id="6397451950548600259">你的電腦上有軟體阻止 Chrome 建立安全的網路連線</translation>
+<translation id="6387478394221739770">想搶先試用酷炫的 Brave 新功能嗎？請前往 chrome.com/beta 安裝測試版。</translation>
+<translation id="6397451950548600259">你的電腦上有軟體阻止 Brave 建立安全的網路連線</translation>
 <translation id="6404511346730675251">編輯書籤</translation>
 <translation id="6410264514553301377">輸入 <ph name="CREDIT_CARD" /> 的到期日和信用卡安全碼</translation>
 <translation id="6414888972213066896">你已詢問家長是否同意你造訪這個網站</translation>
@@ -684,10 +684,10 @@
 <translation id="6456339708790392414">你的付款</translation>
 <translation id="6458467102616083041">由於政策停用了預設搜尋，因此遭到略過。</translation>
 <translation id="647261751007945333">裝置政策</translation>
-<translation id="6477321094435799029">Chrome 在這個網頁上偵測到異常代碼。為了保護你的個人資訊 (包括密碼、電話號碼或信用卡資料)，Chrome 已封鎖這個網頁。</translation>
+<translation id="6477321094435799029">Brave 在這個網頁上偵測到異常代碼。為了保護你的個人資訊 (包括密碼、電話號碼或信用卡資料)，Brave 已封鎖這個網頁。</translation>
 <translation id="6489534406876378309">開始上傳當機報告</translation>
 <translation id="6507833130742554667">接受信用卡和簽帳金融卡。</translation>
-<translation id="6508722015517270189">重新啟動 Chrome</translation>
+<translation id="6508722015517270189">重新啟動 Brave</translation>
 <translation id="6529602333819889595">重做刪除(&amp;R)</translation>
 <translation id="6534179046333460208">實體化網路建議</translation>
 <translation id="6550675742724504774">選項</translation>
@@ -800,7 +800,7 @@
 <translation id="7554791636758816595">新增分頁</translation>
 <translation id="7567204685887185387">伺服器無法證明其屬於 <ph name="DOMAIN" /> 網域；其安全性憑證是以欺詐方式發行。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="7568593326407688803">此網頁為<ph name="ORIGINAL_LANGUAGE" />你要翻譯網頁內容嗎？</translation>
-<translation id="7569952961197462199">要從 Chrome 中移除信用卡嗎？</translation>
+<translation id="7569952961197462199">要從 Brave 中移除信用卡嗎？</translation>
 <translation id="7569983096843329377">黑色</translation>
 <translation id="7578104083680115302">在不同的裝置上透過各個網站和應用程式消費時，使用您讓 Google 儲存的信用卡資料即可快速付款。</translation>
 <translation id="7588950540487816470">實體化網路</translation>
@@ -818,7 +818,7 @@
 <translation id="7667346355482952095">傳回的政策憑證沒有任何內容，或是與目前的憑證不符</translation>
 <translation id="7668654391829183341">不明的裝置</translation>
 <translation id="7669271284792375604">攻擊者可能會試圖透過這個網站誘使你安裝對瀏覽體驗有害 (例如變更你的首頁，或是在你造訪的網站上顯示多餘的廣告) 的程式。</translation>
-<translation id="7674629440242451245">想搶先試用酷炫的 Chrome 新功能嗎？請前往 chrome.com/dev 安裝開發人員版。</translation>
+<translation id="7674629440242451245">想搶先試用酷炫的 Brave 新功能嗎？請前往 chrome.com/dev 安裝開發人員版。</translation>
 <translation id="7682287625158474539">寄送地址</translation>
 <translation id="7701040980221191251">無</translation>
 <translation id="7704050614460855821"><ph name="BEGIN_LINK" />繼續前往 <ph name="SITE" /> 網站 (不安全)<ph name="END_LINK" /></translation>
@@ -840,7 +840,7 @@
 <translation id="780301667611848630">不用了，謝謝</translation>
 <translation id="7805768142964895445">狀態</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">要從 Chrome 中移除建議嗎？</translation>
+<translation id="7813600968533626083">要從 Brave 中移除建議嗎？</translation>
 <translation id="7815407501681723534">找到 <ph name="NUMBER_OF_RESULTS" /> 個與「<ph name="SEARCH_STRING" />」相符的<ph name="SEARCH_RESULTS" /></translation>
 <translation id="785549533363645510">不過，這並不意味著您可以完全隱形。使用無痕模式時，您的雇主和網際網路服務供應商仍然可以追蹤您的瀏覽紀錄，您所造訪的網站也可能會記錄您的瀏覽行為。</translation>
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL" /> <ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
@@ -906,7 +906,7 @@
 <translation id="8433057134996913067">您會因此登出大多數網站。</translation>
 <translation id="8437238597147034694">復原移動(&amp;U)</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{1 張信用卡}other{# 張信用卡}}</translation>
-<translation id="8483780878231876732">如要使用您的 Google 帳戶中的信用卡，請登入 Chrome</translation>
+<translation id="8483780878231876732">如要使用您的 Google 帳戶中的信用卡，請登入 Brave</translation>
 <translation id="8488350697529856933">適用對象</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> 的回應時間過長。</translation>
 <translation id="8503813439785031346">使用者名稱</translation>
@@ -969,7 +969,7 @@
 <translation id="9078964945751709336">請提供詳細資訊</translation>
 <translation id="9103872766612412690"><ph name="SITE" /> 通常使用加密方式保護您的資訊。但 Chromium 這次嘗試連線到 <ph name="SITE" /> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE" />，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Chromium 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
 <translation id="9137013805542155359">顯示原文</translation>
-<translation id="9137248913990643158">使用這個應用程式前，請先啟動 Chrome 並登入帳戶。</translation>
+<translation id="9137248913990643158">使用這個應用程式前，請先啟動 Brave 並登入帳戶。</translation>
 <translation id="9148507642005240123">復原編輯(&amp;U)</translation>
 <translation id="9154194610265714752">已更新</translation>
 <translation id="9157595877708044936">設定中...</translation>

@@ -14,13 +14,13 @@
 <translation id="1074497978438210769">Hindi secure</translation>
 <translation id="1080116354587839789">Pagkasyahin sa lapad</translation>
 <translation id="1103523840287552314">Palaging i-translate ang <ph name="LANGUAGE" /></translation>
-<translation id="1107591249535594099">Kung lalagyan ng check, mag-iimbak ang Chrome ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
+<translation id="1107591249535594099">Kung lalagyan ng check, mag-iimbak ang Brave ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
 <translation id="1111153019813902504">Mga kamakailang bookmark</translation>
 <translation id="1113869188872983271">&amp;I-undo ang pagbabago sa ayos</translation>
 <translation id="1126551341858583091">Ang laki sa lokal na storage ay <ph name="CRASH_SIZE" />.</translation>
 <translation id="112840717907525620">OK ang cache ng patakaran</translation>
 <translation id="113188000913989374">Isinasaad ng <ph name="SITE" /> na:</translation>
-<translation id="1132774398110320017">Mga setting ng Autofill ng Chrome...</translation>
+<translation id="1132774398110320017">Mga setting ng Autofill ng Brave...</translation>
 <translation id="1150979032973867961">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; hindi pinagkakatiwalaan ng operating system ng iyong computer ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
 <translation id="1151972924205500581">Kinakailangan ang password</translation>
 <translation id="1152921474424827756">Mag-access ng <ph name="BEGIN_LINK" />naka-cache na kopya<ph name="END_LINK" /> ng <ph name="URL" /></translation>
@@ -80,7 +80,7 @@
 <translation id="1594030484168838125">Pumili</translation>
 <translation id="161042844686301425">Cyan</translation>
 <translation id="1620510694547887537">Camera</translation>
-<translation id="1629803312968146339">Gusto mo bang i-save ng Chrome ang card na ito?</translation>
+<translation id="1629803312968146339">Gusto mo bang i-save ng Brave ang card na ito?</translation>
 <translation id="1639239467298939599">Naglo-load</translation>
 <translation id="1640180200866533862">Mga patakaran ng user</translation>
 <translation id="1640244768702815859">Subukang <ph name="BEGIN_LINK" />bisitahin ang homepage ng site<ph name="END_LINK" />.</translation>
@@ -89,8 +89,8 @@
 <translation id="1645368109819982629">Hindi sinusuportahang protocol</translation>
 <translation id="1655462015569774233">{1,plural, =1{Hindi mapatunayan ng server na ito na ito ang <ph name="DOMAIN" />; nag-expire na ang certificate ng seguridad nito kahapon. Maaaring resulta ito ng maling configuration o kaya ng isang attacker na humahadlang sa iyong koneksyon. Sa kasalukuyan, nakatakda ang orasan ng iyong computer sa <ph name="CURRENT_DATE" />. Mukha bang tama iyon? Kung hindi, dapat mong ayusin ang orasan ng iyong system at pagkatapos ay i-refresh ang page na ito.}one{Hindi mapatunayan ng server na ito na ito ang <ph name="DOMAIN" />; nag-expire na ang certificate ng seguridad nito # araw na ang nakalipas. Maaaring resulta ito ng maling configuration o kaya ng isang attacker na humahadlang sa iyong koneksyon. Sa kasalukuyan, nakatakda ang orasan ng iyong computer sa <ph name="CURRENT_DATE" />. Mukha bang tama iyon? Kung hindi, dapat mong ayusin ang orasan ng iyong system at pagkatapos ay i-refresh ang page na ito.}other{Hindi mapatunayan ng server na ito na ito ang <ph name="DOMAIN" />; nag-expire na ang certificate ng seguridad nito # na araw na ang nakalipas. Maaaring resulta ito ng maling configuration o kaya ng isang attacker na humahadlang sa iyong koneksyon. Sa kasalukuyan, nakatakda ang orasan ng iyong computer sa <ph name="CURRENT_DATE" />. Mukha bang tama iyon? Kung hindi, dapat mong ayusin ang orasan ng iyong system at pagkatapos ay i-refresh ang page na ito.}}</translation>
 <translation id="1656489000284462475">I-pick up</translation>
-<translation id="1663943134801823270">Ang mga card at address ay mula sa Chrome. Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
-<translation id="1676269943528358898">Karaniwang gumagamit ang <ph name="SITE" /> ng pag-encrypt upang protektahan ang iyong impormasyon. Noong sinubukang kumonekta ng Chrome sa <ph name="SITE" /> sa pagkakataong ito, nagbalik ang website ng mga hindi pangkaraniwan at maling kredensyal. Maaari itong mangyari kapag sinusubukan ng isang attacker na magpanggap bilang <ph name="SITE" />, o naputol ang koneksyon dahil sa isang screen ng pag-sign in sa Wi-Fi. Secure pa rin ang iyong impormasyon dahil inihinto ng Google Chrome ang koneksyon bago magkaroon ng palitan ng anumang data.</translation>
+<translation id="1663943134801823270">Ang mga card at address ay mula sa Brave. Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
+<translation id="1676269943528358898">Karaniwang gumagamit ang <ph name="SITE" /> ng pag-encrypt upang protektahan ang iyong impormasyon. Noong sinubukang kumonekta ng Brave sa <ph name="SITE" /> sa pagkakataong ito, nagbalik ang website ng mga hindi pangkaraniwan at maling kredensyal. Maaari itong mangyari kapag sinusubukan ng isang attacker na magpanggap bilang <ph name="SITE" />, o naputol ang koneksyon dahil sa isang screen ng pag-sign in sa Wi-Fi. Secure pa rin ang iyong impormasyon dahil inihinto ng Brave ang koneksyon bago magkaroon ng palitan ng anumang data.</translation>
 <translation id="168841957122794586">Naglalaman ang server certificate ng isang mahinang cryptographic key.</translation>
 <translation id="1706954506755087368">{1,plural, =1{Hindi mapatunayan ng server na ito na ito ang <ph name="DOMAIN" />; tinatayang mula sa susunod na araw ang certificate ng seguridad nito. Maaaring resulta ito ng maling configuration o kaya ng isang attacker na humahadlang sa iyong koneksyon.}one{Hindi mapatunayan ng server na ito na ito ang <ph name="DOMAIN" />; tinatayang mula sa # araw sa hinaharap ang certificate ng seguridad nito. Maaaring resulta ito ng maling configuration o kaya ng isang attacker na humahadlang sa iyong koneksyon.}other{Hindi mapatunayan ng server na ito na ito ang <ph name="DOMAIN" />; tinatayang mula sa # na araw sa hinaharap ang certificate ng seguridad nito. Maaaring resulta ito ng maling configuration o kaya ng isang attacker na humahadlang sa iyong koneksyon.}}</translation>
 <translation id="1710259589646384581">OS</translation>
@@ -140,7 +140,7 @@
 <translation id="2065985942032347596">Kinakailangan na Pagpapatunay</translation>
 <translation id="2079545284768500474">I-undo</translation>
 <translation id="20817612488360358">Itinatakda ang mga setting ng proxy ng system upang magamit ngunit tinutukoy rin ang isang tahasang configuration ng proxy.</translation>
-<translation id="2086652334978798447">Upang makakuha ng naka-personalize na content na iminumungkahi ng Google, mag-sign in sa Chrome.</translation>
+<translation id="2086652334978798447">Upang makakuha ng naka-personalize na content na iminumungkahi ng Google, mag-sign in sa Brave.</translation>
 <translation id="2094505752054353250">Maling pagtutugma sa domain</translation>
 <translation id="2096368010154057602">Departamento</translation>
 <translation id="2108755909498034140">I-restart ang iyong computer</translation>
@@ -250,7 +250,7 @@
 <translation id="2955913368246107853">Isara ang bar sa paghahanap</translation>
 <translation id="2958431318199492670">Hindi sumusunod ang configuration ng network sa pamantayan ng ONC. Hindi maaaring i-import ang mga bahagi ng configuration.</translation>
 <translation id="2966678944701946121">Exp: <ph name="EXPIRATION_DATE_ABBR" />, idinagdag noong <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
-<translation id="2969319727213777354">Upang makapagtatag ng secure na koneksyon, kailangang itakda nang tama ang iyong orasan. Ito ay dahil sa may-bisa lang ang mga certificate na ginagamit ng mga website upang tukuyin ang mga sarili ng mga ito sa loob ng mga partikular na tagal ng panahon. Dahil mali ang orasan ng iyong device, hindi ma-verify ng Google Chrome ang mga certificate na ito.</translation>
+<translation id="2969319727213777354">Upang makapagtatag ng secure na koneksyon, kailangang itakda nang tama ang iyong orasan. Ito ay dahil sa may-bisa lang ang mga certificate na ginagamit ng mga website upang tukuyin ang mga sarili ng mga ito sa loob ng mga partikular na tagal ng panahon. Dahil mali ang orasan ng iyong device, hindi ma-verify ng Brave ang mga certificate na ito.</translation>
 <translation id="2972581237482394796">&amp;I-redo</translation>
 <translation id="2977665033722899841">Kasalukuyang napili ang <ph name="ROW_NAME" />. <ph name="ROW_CONTENT" /></translation>
 <translation id="2985306909656435243">Kung naka-enable, mag-iimbak ang Chromium ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
@@ -266,7 +266,7 @@
 <translation id="3032412215588512954">Gusto mo bang i-reload ang site na ito?</translation>
 <translation id="3037605927509011580">Ay, Naku!</translation>
 <translation id="3041612393474885105">Impormasyon sa Certificate</translation>
-<translation id="3063697135517575841">Hindi nakumpirma ng Chrome ang iyong card sa pagkakataong ito. Pakisubukang muli sa ibang pagkakataon.</translation>
+<translation id="3063697135517575841">Hindi nakumpirma ng Brave ang iyong card sa pagkakataong ito. Pakisubukang muli sa ibang pagkakataon.</translation>
 <translation id="3064966200440839136">Aalis sa incognito mode upang magbayad sa pamamagitan ng external na application. Magpatuloy?</translation>
 <translation id="3083099961703215236">{COUNT,plural, =0{Wala}=1{1 password}one{# password}other{# na password}}</translation>
 <translation id="3093245981617870298">Offline ka.</translation>
@@ -307,7 +307,7 @@
 <translation id="3340978935015468852">mga setting</translation>
 <translation id="3345135638360864351">Hindi maipadala kay <ph name="NAME" /> ang iyong kahilingang i-access ang site na ito. Pakisubukang muli.</translation>
 <translation id="3355823806454867987">Baguhin ang mga setting ng proxy...</translation>
-<translation id="3361596688432910856"><ph name="BEGIN_EMPHASIS" />Hindi ise-save<ph name="END_EMPHASIS" /> ng Chrome ang sumusunod na impormasyon:
+<translation id="3361596688432910856"><ph name="BEGIN_EMPHASIS" />Hindi ise-save<ph name="END_EMPHASIS" /> ng Brave ang sumusunod na impormasyon:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />Iyong history ng pag-browse
           <ph name="LIST_ITEM" />Cookies at data ng site
@@ -448,19 +448,19 @@
 <translation id="4377125064752653719">Tinangka mong maabot ang <ph name="DOMAIN" />, subalit ang certificate na ipinakita ng server ay binawi ng nagbigay nito. Nangangahulugan ito na ang mga kredensyal sa seguridad na ipinakita ng server ay talagang hindi dapat pagkatiwalaan. Maaaring nakikipag-ugnay ka sa isang nang-aatake.</translation>
 <translation id="4394049700291259645">Huwag paganahin</translation>
 <translation id="4406896451731180161">mga resulta ng paghahanap</translation>
-<translation id="4424024547088906515">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; hindi pinagkakatiwalaan ng Chrome ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
+<translation id="4424024547088906515">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; hindi pinagkakatiwalaan ng Brave ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
 <translation id="4432688616882109544">Hindi tinanggap ng <ph name="HOST_NAME" /> ang iyong certificate sa pag-log in o maaaring walang ibinigay.</translation>
 <translation id="443673843213245140">Hindi pinagana ang paggamit ng isang proxy ngunit tinutukoy ang isang tahasang configuration ng proxy.</translation>
 <translation id="445100540951337728">Mga tinatanggap na debit card</translation>
 <translation id="4506176782989081258">Error sa pagpapatunay: <ph name="VALIDATION_ERROR" /></translation>
 <translation id="4506599922270137252">Makipag-ugnayan sa admin ng system</translation>
 <translation id="450710068430902550">Pagbabahagi sa Administrator</translation>
-<translation id="4515275063822566619">Ang mga card at address ay mula sa Chrome at sa iyong Google Account (<ph name="ACCOUNT_EMAIL" />). Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">Ang mga card at address ay mula sa Brave at sa iyong Google Account (<ph name="ACCOUNT_EMAIL" />). Maaari mong pamahalaan ang mga ito sa <ph name="BEGIN_LINK" />Mga Setting<ph name="END_LINK" />.</translation>
 <translation id="4522570452068850558">Mga Detalye</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4558551763791394412">Subukang i-disable ang iyong mga extension.</translation>
 <translation id="457875822857220463">Paghahatid</translation>
-<translation id="4587425331216688090">Alisin ang address sa Chrome?</translation>
+<translation id="4587425331216688090">Alisin ang address sa Brave?</translation>
 <translation id="4592951414987517459">Naka-encrypt ang iyong koneksyon sa <ph name="DOMAIN" /> gamit ang isang makabagong cipher suite.</translation>
 <translation id="4594403342090139922">&amp;I-undo ang Pagtanggal</translation>
 <translation id="4611292653554630842">Mag-log in</translation>
@@ -485,7 +485,7 @@
 <translation id="4771973620359291008">Isang hindi alam na error ang nangyari.</translation>
 <translation id="4800132727771399293">Tingnan ang iyong petsa ng pag-expire at CVC at subukang muli</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">Hindi mo maaaring bisitahin ang <ph name="SITE" /> sa ngayon dahil nagpadala ang website ng mga gulu-gulong kredensyal na hindi maproseso ng Google Chrome. Kadalasang pansamantala lang ang mga error at atake sa network, kaya malamang na gagana ang page na ito sa ibang pagkakataon.</translation>
+<translation id="4807049035289105102">Hindi mo maaaring bisitahin ang <ph name="SITE" /> sa ngayon dahil nagpadala ang website ng mga gulu-gulong kredensyal na hindi maproseso ng Brave. Kadalasang pansamantala lang ang mga error at atake sa network, kaya malamang na gagana ang page na ito sa ibang pagkakataon.</translation>
 <translation id="4813512666221746211">Error sa network</translation>
 <translation id="4816492930507672669">Pagkasyahin sa pahina</translation>
 <translation id="483020001682031208">Walang maipakitang page ng Pisikal na Web</translation>
@@ -505,7 +505,7 @@
 <translation id="4958444002117714549">Palawakin ang listahan</translation>
 <translation id="4974590756084640048">Muling i-enable ang mga babala</translation>
 <translation id="4989809363548539747">Hindi sinusuportahan ang plugin na ito</translation>
-<translation id="5002932099480077015">Kung naka-enable, mag-iimbak ang Chrome ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
+<translation id="5002932099480077015">Kung naka-enable, mag-iimbak ang Brave ng kopya ng iyong card sa device na ito para sa mas mabilis na pagsagot sa form.</translation>
 <translation id="5018422839182700155">Hindi mabuksan ang page na ito</translation>
 <translation id="5019198164206649151">Hindi maganda ang katayuan ng backing store</translation>
 <translation id="5023310440958281426">Suriin ang mga patakaran ng iyong administrator</translation>
@@ -534,7 +534,7 @@
 <translation id="5205222826937269299">Kailangan ng pangalan</translation>
 <translation id="5222812217790122047">Kailangan ng email</translation>
 <translation id="5251803541071282808">Cloud</translation>
-<translation id="5277279256032773186">Ginagamit mo ba ang Chrome sa trabaho? Maaaring pamahalaan ng mga negosyo ang mga setting ng Chrome para sa kanilang mga empleyado. Matuto pa</translation>
+<translation id="5277279256032773186">Ginagamit mo ba ang Brave sa trabaho? Maaaring pamahalaan ng mga negosyo ang mga setting ng Brave para sa kanilang mga empleyado. Matuto pa</translation>
 <translation id="5281113152797308730"><ph name="BEGIN_PARAGRAPH" />Sundin ang mga hakbang na ito upang pansamantalang i-disable ang software upang makapunta ka sa web. Kakailanganin mo ang mga pribilehiyong pang-administrator.<ph name="END_PARAGRAPH" />
 
     <ph name="BEGIN_LIST" />
@@ -543,7 +543,7 @@
     <ph name="LIST_ITEM" />Sa ilalim ng <ph name="BEGIN_BOLD" />Uri ng startup<ph name="END_BOLD" />, piliin ang <ph name="BEGIN_BOLD" />Naka-disable<ph name="END_BOLD" />
     <ph name="LIST_ITEM" />Sa ilalim ng <ph name="BEGIN_BOLD" />Status ng serbisyo<ph name="END_BOLD" />, i-click ang <ph name="BEGIN_BOLD" />Ihinto<ph name="END_BOLD" />
     <ph name="LIST_ITEM" />I-click ang <ph name="BEGIN_BOLD" />Ilapat<ph name="END_BOLD" />, pagkatapos ay i-click ang <ph name="BEGIN_BOLD" />OK<ph name="END_BOLD" />
-    <ph name="LIST_ITEM" />Bisitahin ang <ph name="BEGIN_LEARN_MORE_LINK" />help center ng Chrome<ph name="END_LEARN_MORE_LINK" /> upang alamin kung paano permanenteng alisin ang software sa iyong computer
+    <ph name="LIST_ITEM" />Bisitahin ang <ph name="BEGIN_LEARN_MORE_LINK" />help center ng Brave<ph name="END_LEARN_MORE_LINK" /> upang alamin kung paano permanenteng alisin ang software sa iyong computer
     <ph name="END_LIST" /></translation>
 <translation id="5297526204711817721">Hindi pribado ang iyong koneksyon sa site na ito. Upang lumabas sa VR mode anumang oras, alisin ang headset at pindutin ang bumalik.</translation>
 <translation id="5299298092464848405">Error sa pag-parse ng patakaran</translation>
@@ -579,7 +579,7 @@
 <translation id="5560088892362098740">Petsa ng Pag-expire</translation>
 <translation id="5565735124758917034">Aktibo</translation>
 <translation id="5571083550517324815">Hindi maaaring mag-pick up mula sa address na ito. Pumili ng ibang address.</translation>
-<translation id="5572851009514199876">Magsimula at mag-sign in sa Chrome upang masuri ng Chrome kung pinapayagan kang i-access ang site na ito.</translation>
+<translation id="5572851009514199876">Magsimula at mag-sign in sa Brave upang masuri ng Brave kung pinapayagan kang i-access ang site na ito.</translation>
 <translation id="5580958916614886209">Tingnan ang iyong buwan ng pag-expire at subukang muli</translation>
 <translation id="5586446728396275693">Walang naka-save na address</translation>
 <translation id="5595485650161345191">Mag-edit ng address</translation>
@@ -670,8 +670,8 @@
 <translation id="6355080345576803305">Override sa pampublikong session</translation>
 <translation id="6358450015545214790">Ano ang ibig sabihin ng mga ito?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{1 pang suhestyon}one{# pang suhestyon}other{# pang suhestyon}}</translation>
-<translation id="6387478394221739770">Interesado sa mga astig at bagong tampok sa Chrome? Subukan ang aming beta channel sa chrome.com/beta.</translation>
-<translation id="6397451950548600259">Pinipigilan ng software sa iyong computer na makakonekta nang ligtas ang Chrome sa web</translation>
+<translation id="6387478394221739770">Interesado sa mga astig at bagong tampok sa Brave? Subukan ang aming beta channel sa chrome.com/beta.</translation>
+<translation id="6397451950548600259">Pinipigilan ng software sa iyong computer na makakonekta nang ligtas ang Brave sa web</translation>
 <translation id="6404511346730675251">I-edit ang bookmark</translation>
 <translation id="6410264514553301377">Ilagay ang petsa ng pag-expire at CVC para sa <ph name="CREDIT_CARD" /></translation>
 <translation id="6414888972213066896">Tinanong mo ang iyong magulang kung maaari mong bisitahin ang site na ito</translation>
@@ -684,10 +684,10 @@
 <translation id="6456339708790392414">Iyong Pagbabayad</translation>
 <translation id="6458467102616083041">Binalewala dahil hindi pinagana ng patakaran ang default na paghahanap.</translation>
 <translation id="647261751007945333">Mga patakaran sa device</translation>
-<translation id="6477321094435799029">May natukoy na kakaibang code ang Chrome sa page na ito at na-block ito upang protektahan ang iyong personal na impormasyon (halimbawa, mga password, numero ng telepono at credit card).</translation>
+<translation id="6477321094435799029">May natukoy na kakaibang code ang Brave sa page na ito at na-block ito upang protektahan ang iyong personal na impormasyon (halimbawa, mga password, numero ng telepono at credit card).</translation>
 <translation id="6489534406876378309">Simulang mag-upload ng mga pag-crash</translation>
 <translation id="6507833130742554667">Tinatanggap ang mga credit at debit card.</translation>
-<translation id="6508722015517270189">I-restart ang Chrome</translation>
+<translation id="6508722015517270189">I-restart ang Brave</translation>
 <translation id="6529602333819889595">&amp;Gawing Muli ang Pagtanggal</translation>
 <translation id="6534179046333460208">Mga suhestyon sa Pisikal na Web</translation>
 <translation id="6550675742724504774">Mga Pagpipilian</translation>
@@ -800,7 +800,7 @@
 <translation id="7554791636758816595">Bagong Tab</translation>
 <translation id="7567204685887185387">Hindi mapatunayan ng server na ito na ito ay <ph name="DOMAIN" />; maaaring mapanlokong ibinigay ang certificate ng seguridad nito. Maaaring dulot ito ng maling configuration o isang umaatake na hinahadlangan ang iyong koneksyon.</translation>
 <translation id="7568593326407688803">Ang pahinang ito ay nasa<ph name="ORIGINAL_LANGUAGE" />Gusto mong isalin ito?</translation>
-<translation id="7569952961197462199">Alisin ang credit card sa Chrome?</translation>
+<translation id="7569952961197462199">Alisin ang credit card sa Brave?</translation>
 <translation id="7569983096843329377">Itim</translation>
 <translation id="7578104083680115302">Magbayad nang mabilis sa mga site at app sa iba't ibang device gamit ang mga card na na-save mo sa Google.</translation>
 <translation id="7588950540487816470">Pisikal na Web</translation>
@@ -818,7 +818,7 @@
 <translation id="7667346355482952095">Walang laman ang ibinalik na token ng patakaran o hindi tumutugma sa kasalukuyang token</translation>
 <translation id="7668654391829183341">Hindi kilalang device</translation>
 <translation id="7669271284792375604">Maaaring subukan ng mga attacker sa site na ito na linlangin ka upang mag-install ng mga program na makakasama sa iyong karanasan sa pag-browse (halimbawa, sa pamamagitan ng pagbabago ng iyong homepage o pagpapakita ng mga karagdagang ad sa mga site na binibisita mo).</translation>
-<translation id="7674629440242451245">Interesado sa mga astig at bagong tampok sa Chrome? Subukan ang aming dev channel sa chrome.com/dev.</translation>
+<translation id="7674629440242451245">Interesado sa mga astig at bagong tampok sa Brave? Subukan ang aming dev channel sa chrome.com/dev.</translation>
 <translation id="7682287625158474539">Pagpapadala</translation>
 <translation id="7701040980221191251">Wala</translation>
 <translation id="7704050614460855821"><ph name="BEGIN_LINK" />Magpatuloy sa <ph name="SITE" /> (hindi ligtas)<ph name="END_LINK" /></translation>
@@ -840,7 +840,7 @@
 <translation id="780301667611848630">Hindi salamat</translation>
 <translation id="7805768142964895445">Katayuan</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Alisin ang suhestyon sa Chrome?</translation>
+<translation id="7813600968533626083">Alisin ang suhestyon sa Brave?</translation>
 <translation id="7815407501681723534">Nakakita ng <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> para sa '<ph name="SEARCH_STRING" />'</translation>
 <translation id="785549533363645510">Gayunpaman, hindi ka invisible. Kahit mag-incognito ka, hindi matatago ang iyong pagba-browse mula sa iyong employer, sa iyong internet service provider o sa mga website na binibisita mo.</translation>
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL" /> <ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
@@ -906,7 +906,7 @@
 <translation id="8433057134996913067">Masa-sign out ka sa karamihan ng mga website.</translation>
 <translation id="8437238597147034694">&amp;I-undo ang paglilipat</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{1 credit card}one{# credit card}other{# na credit card}}</translation>
-<translation id="8483780878231876732">Upang gumamit ng mga card mula sa iyong Google Account, mag-sign in sa Chrome</translation>
+<translation id="8483780878231876732">Upang gumamit ng mga card mula sa iyong Google Account, mag-sign in sa Brave</translation>
 <translation id="8488350697529856933">Nalalapat sa</translation>
 <translation id="8498891568109133222">Masyadong matagal bago nakatugon ang <ph name="HOST_NAME" />.</translation>
 <translation id="8503813439785031346">Username</translation>
@@ -969,7 +969,7 @@
 <translation id="9078964945751709336">Nangangailangan ng higit pang impormasyon</translation>
 <translation id="9103872766612412690">Karaniwang gumagamit ang <ph name="SITE" /> ng pag-encrypt upang protektahan ang iyong impormasyon. Noong sinubukang kumonekta ng Chromium sa <ph name="SITE" /> sa pagkakataong ito, nagbalik ang website ng mga hindi pangkaraniwan at maling kredensyal. Maaari itong mangyari kapag sinusubukan ng isang attacker na magpanggap bilang <ph name="SITE" />, o naputol ang koneksyon dahil sa isang screen ng pag-sign in sa Wi-Fi. Secure pa rin ang iyong impormasyon dahil inihinto ng Chromium ang koneksyon bago magkaroon ng palitan ng anumang data.</translation>
 <translation id="9137013805542155359">Ipakita ang orihinal</translation>
-<translation id="9137248913990643158">Magsimula at mag-sign in sa Chrome bago gamitin ang app na ito.</translation>
+<translation id="9137248913990643158">Magsimula at mag-sign in sa Brave bago gamitin ang app na ito.</translation>
 <translation id="9148507642005240123">&amp;I-undo ang pag-e-edit</translation>
 <translation id="9154194610265714752">Na-update</translation>
 <translation id="9157595877708044936">Nagse-set up...</translation>

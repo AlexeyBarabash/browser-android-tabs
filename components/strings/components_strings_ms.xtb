@@ -14,13 +14,13 @@
 <translation id="1074497978438210769">Tidak selamat</translation>
 <translation id="1080116354587839789">Muat ikut lebar</translation>
 <translation id="1103523840287552314">Sentiasa terjemahkan <ph name="LANGUAGE" /></translation>
-<translation id="1107591249535594099">Jika ditandai, Chrome akan menyimpan salinan kad anda pada peranti ini untuk pengisian borang yang lebih cepat.</translation>
+<translation id="1107591249535594099">Jika ditandai, Brave akan menyimpan salinan kad anda pada peranti ini untuk pengisian borang yang lebih cepat.</translation>
 <translation id="1111153019813902504">Penanda halaman terbaharu dilawati</translation>
 <translation id="1113869188872983271">&amp;Buat asal susun semula</translation>
 <translation id="1126551341858583091">Saiz pada storan setempat ialah <ph name="CRASH_SIZE" />.</translation>
 <translation id="112840717907525620">Cache dasar OK</translation>
 <translation id="113188000913989374"><ph name="SITE" /> menyatakan:</translation>
-<translation id="1132774398110320017">Tetapan Auto Isi Chrome...</translation>
+<translation id="1132774398110320017">Tetapan Auto Isi Brave...</translation>
 <translation id="1150979032973867961">Pelayan ini tidak dapat membuktikan bahawa domainnya ialah <ph name="DOMAIN" />; sijil keselamatannya tidak dipercayai oleh sistem pengendalian komputer anda. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang yang memintasi sambungan anda.</translation>
 <translation id="1151972924205500581">Kata laluan diperlukan</translation>
 <translation id="1152921474424827756">Akses <ph name="BEGIN_LINK" />salinan cache<ph name="END_LINK" /> <ph name="URL" /></translation>
@@ -80,7 +80,7 @@
 <translation id="1594030484168838125">Pilih</translation>
 <translation id="161042844686301425">Sian</translation>
 <translation id="1620510694547887537">Kamera</translation>
-<translation id="1629803312968146339">Adakah anda mahu Chrome menyimpan kad ini?</translation>
+<translation id="1629803312968146339">Adakah anda mahu Brave menyimpan kad ini?</translation>
 <translation id="1639239467298939599">Memuatkan</translation>
 <translation id="1640180200866533862">Dasar pengguna</translation>
 <translation id="1640244768702815859">Cuba <ph name="BEGIN_LINK" />lawat laman utama tapak<ph name="END_LINK" />.</translation>
@@ -89,8 +89,8 @@
 <translation id="1645368109819982629">Protokol tidak disokong</translation>
 <translation id="1655462015569774233">{1,plural, =1{Pelayan ini tidak dapat membuktikan bahawa <ph name="DOMAIN" />; sijil keselamatannya tamat tempoh semalam. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang yang memintas sambungan anda. Jam komputer anda ditetapkan kepada <ph name="CURRENT_DATE" /> pada masa ini. Adakah itu betul? Jika tidak, anda perlu membetulkan jam sistem anda dan kemudian muat semula halaman ini.}other{Pelayan ini tidak dapat membuktikan bahawa <ph name="DOMAIN" />; sijil keselamatannya tamat tempoh # hari yang lalu. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang yang memintas sambungan anda. Jam komputer anda ditetapkan kepada <ph name="CURRENT_DATE" /> pada masa ini. Adakah itu betul? Jika tidak, anda perlu membetulkan jam sistem anda dan kemudian muat semula halaman ini.}}</translation>
 <translation id="1656489000284462475">Pengambilan</translation>
-<translation id="1663943134801823270">Kad dan alamat adalah daripada Chrome. Anda boleh mengurus kad dan alamat ini dalam <ph name="BEGIN_LINK" />Tetapan<ph name="END_LINK" />.</translation>
-<translation id="1676269943528358898"><ph name="SITE" /> biasanya menggunakan penyulitan untuk melindungi maklumat anda. Apabila Google Chrome cuba menyambung ke <ph name="SITE" /> pada kali ini, tapak web tersebut mengembalikan bukti kelayakan yang luar biasa dan salah. Hal ini boleh berlaku apabila penyerang sedang cuba menyamar sebagai <ph name="SITE" /> atau skrin log masuk Wi-Fi telah memutuskan sambungan. Maklumat anda masih selamat kerana Google Chrome menghentikan sambungan sebelum sebarang pertukaran data berlaku.</translation>
+<translation id="1663943134801823270">Kad dan alamat adalah daripada Brave. Anda boleh mengurus kad dan alamat ini dalam <ph name="BEGIN_LINK" />Tetapan<ph name="END_LINK" />.</translation>
+<translation id="1676269943528358898"><ph name="SITE" /> biasanya menggunakan penyulitan untuk melindungi maklumat anda. Apabila Brave cuba menyambung ke <ph name="SITE" /> pada kali ini, tapak web tersebut mengembalikan bukti kelayakan yang luar biasa dan salah. Hal ini boleh berlaku apabila penyerang sedang cuba menyamar sebagai <ph name="SITE" /> atau skrin log masuk Wi-Fi telah memutuskan sambungan. Maklumat anda masih selamat kerana Brave menghentikan sambungan sebelum sebarang pertukaran data berlaku.</translation>
 <translation id="168841957122794586">Sijil pelayan mengandungi kunci kriptografi yang lemah.</translation>
 <translation id="1706954506755087368">{1,plural, =1{Pelayan ini tidak dapat membuktikan bahawa itu <ph name="DOMAIN" />;sijil keselamatannya sepatutnya bermula esok. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang yang memintas sambungan anda.}other{Pelayan ini tidak dapat membuktikan bahawa itu <ph name="DOMAIN" />; sijil keselamatannya sepatutnya bermula # hari lagi. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang yang memintas sambungan anda.}}</translation>
 <translation id="1710259589646384581">OS</translation>
@@ -140,7 +140,7 @@
 <translation id="2065985942032347596">Pengesahan Diperlukan</translation>
 <translation id="2079545284768500474">Buat asal</translation>
 <translation id="20817612488360358">Tetapan proksi sistem telah sedia untuk digunakan tetapi konfigurasi proksi jelas juga telah ditentukan.</translation>
-<translation id="2086652334978798447">Untuk mendapatkan kandungan diperibadikan yang dicadangkan oleh Google, log masuk ke Chrome.</translation>
+<translation id="2086652334978798447">Untuk mendapatkan kandungan diperibadikan yang dicadangkan oleh Google, log masuk ke Brave.</translation>
 <translation id="2094505752054353250">Domain tidak padan</translation>
 <translation id="2096368010154057602">Jabatan</translation>
 <translation id="2108755909498034140">Mulakan semula komputer anda</translation>
@@ -250,7 +250,7 @@
 <translation id="2955913368246107853">Tutup bar cari</translation>
 <translation id="2958431318199492670">Konfigurasi rangkaian tidak mematuhi piawaian ONC. Sebahagian konfigurasi tidak boleh diimport.</translation>
 <translation id="2966678944701946121">Tamat: <ph name="EXPIRATION_DATE_ABBR" />, ditambahkan <ph name="ADDED_TO_AUTOFILL_MONTH" /></translation>
-<translation id="2969319727213777354">Untuk mewujudkan sambungan yang selamat, jam anda perlu ditetapkan dengan betul. Perkara ini perlu dilakukan kerana sijil yang digunakan laman web untuk mengenal pastinya hanya sah untuk tempoh masa yang tertentu. Memandangkan jam peranti anda tidak betul, Google Chrome tidak boleh mengesahkan sijil ini.</translation>
+<translation id="2969319727213777354">Untuk mewujudkan sambungan yang selamat, jam anda perlu ditetapkan dengan betul. Perkara ini perlu dilakukan kerana sijil yang digunakan laman web untuk mengenal pastinya hanya sah untuk tempoh masa yang tertentu. Memandangkan jam peranti anda tidak betul, Brave tidak boleh mengesahkan sijil ini.</translation>
 <translation id="2972581237482394796">&amp;Buat Semula</translation>
 <translation id="2977665033722899841"><ph name="ROW_NAME" />, dipilih pada masa ini. <ph name="ROW_CONTENT" /></translation>
 <translation id="2985306909656435243">Jika didayakan, Chromium akan menyimpan salinan kad anda pada peranti ini untuk pengisian borang yang lebih cepat.</translation>
@@ -266,7 +266,7 @@
 <translation id="3032412215588512954">Adakah anda ingin memuat semula tapak ini?</translation>
 <translation id="3037605927509011580">Oh, Tidak!</translation>
 <translation id="3041612393474885105">Maklumat Sijil</translation>
-<translation id="3063697135517575841">Chrome tidak dapat mengesahkan kad anda pada masa ini. Sila cuba sebentar lagi.</translation>
+<translation id="3063697135517575841">Brave tidak dapat mengesahkan kad anda pada masa ini. Sila cuba sebentar lagi.</translation>
 <translation id="3064966200440839136">Meninggalkan mod inkognito untuk membayar melalui aplikasi luar. Teruskan?</translation>
 <translation id="3083099961703215236">{COUNT,plural, =0{Tiada}=1{1 kata laluan}other{# kata laluan}}</translation>
 <translation id="3093245981617870298">Anda di luar talian.</translation>
@@ -307,7 +307,7 @@
 <translation id="3340978935015468852">tetapan</translation>
 <translation id="3345135638360864351">Permintaan anda untuk mengakses tapak web ini tidak boleh dihantar kepada <ph name="NAME" />. Sila cuba lagi.</translation>
 <translation id="3355823806454867987">Tukar tetapan proksi...</translation>
-<translation id="3361596688432910856">Chrome <ph name="BEGIN_EMPHASIS" />tidak akan menyimpan<ph name="END_EMPHASIS" /> maklumat berikut:
+<translation id="3361596688432910856">Brave <ph name="BEGIN_EMPHASIS" />tidak akan menyimpan<ph name="END_EMPHASIS" /> maklumat berikut:
         <ph name="BEGIN_LIST" />
           <ph name="LIST_ITEM" />Sejarah semak imbas anda
           <ph name="LIST_ITEM" />Kuki dan data tapak
@@ -449,19 +449,19 @@
 <translation id="4377125064752653719">Anda cuba untuk mencapai <ph name="DOMAIN" />, tetapi sijil yang diberi pelayan telah dibatalkan oleh pengeluarnya. Ini bermakna bahawa bukti kelayakan keselamatan yang diberi pelayan sememangnya tidak harus dipercayai. Anda mungkin berkomunikasi dengan penyerang.</translation>
 <translation id="4394049700291259645">Lumpuhkan</translation>
 <translation id="4406896451731180161">hasil carian</translation>
-<translation id="4424024547088906515">Pelayan ini tidak dapat membuktikan bahawa domainnya ialah <ph name="DOMAIN" />; sijil keselamatannya tidak dipercayai oleh Chrome. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang memintasi sambungan anda.</translation>
+<translation id="4424024547088906515">Pelayan ini tidak dapat membuktikan bahawa domainnya ialah <ph name="DOMAIN" />; sijil keselamatannya tidak dipercayai oleh Brave. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang memintasi sambungan anda.</translation>
 <translation id="4432688616882109544"><ph name="HOST_NAME" /> tidak menerima sijil log masuk anda atau sijil log masuk mungkin tidak diberikan.</translation>
 <translation id="443673843213245140">Penggunaan proksi dilumpuhkan tetapi konfigurasi proksi yang jelas dinyatakan.</translation>
 <translation id="445100540951337728">Kad debit yang diterima</translation>
 <translation id="4506176782989081258">Ralat pengesahan: <ph name="VALIDATION_ERROR" /></translation>
 <translation id="4506599922270137252">Menghubungi pentadbir sistem</translation>
 <translation id="450710068430902550">Berkongsi dengan Pentadbir</translation>
-<translation id="4515275063822566619">Kad dan alamat adalah daripada Chrome dan Akaun Google anda (<ph name="ACCOUNT_EMAIL" />). Anda boleh mengurus kad dan alamat ini dalam <ph name="BEGIN_LINK" />Tetapan<ph name="END_LINK" />.</translation>
+<translation id="4515275063822566619">Kad dan alamat adalah daripada Brave dan Akaun Google anda (<ph name="ACCOUNT_EMAIL" />). Anda boleh mengurus kad dan alamat ini dalam <ph name="BEGIN_LINK" />Tetapan<ph name="END_LINK" />.</translation>
 <translation id="4522570452068850558">Butiran</translation>
 <translation id="4552089082226364758">Flash</translation>
 <translation id="4558551763791394412">Cuba lumpuhkan sambungan anda.</translation>
 <translation id="457875822857220463">Penghantaran</translation>
-<translation id="4587425331216688090">Alih keluar alamat daripada Chrome?</translation>
+<translation id="4587425331216688090">Alih keluar alamat daripada Brave?</translation>
 <translation id="4592951414987517459">Sambungan anda ke <ph name="DOMAIN" /> disulitkan menggunakan suit sifer moden.</translation>
 <translation id="4594403342090139922">&amp;Buat asal Pemadaman</translation>
 <translation id="4611292653554630842">Log masuk</translation>
@@ -486,7 +486,7 @@
 <translation id="4771973620359291008">Ralat tidak diketahui telah berlaku.</translation>
 <translation id="4800132727771399293">Semak tarikh tamat tempoh serta CVC anda dan cuba lagi</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
-<translation id="4807049035289105102">Anda tidak boleh melawati <ph name="SITE" /> sekarang kerana tapak web ini menghantar bukti kelayakan yang dicampuradukkan yang tidak boleh diproses oleh Google Chrome. Ralat rangkaian dan serangan biasanya bersifat sementara, oleh itu halaman ini mungkin akan berfungsi sebentar lagi.</translation>
+<translation id="4807049035289105102">Anda tidak boleh melawati <ph name="SITE" /> sekarang kerana tapak web ini menghantar bukti kelayakan yang dicampuradukkan yang tidak boleh diproses oleh Brave. Ralat rangkaian dan serangan biasanya bersifat sementara, oleh itu halaman ini mungkin akan berfungsi sebentar lagi.</translation>
 <translation id="4813512666221746211">Ralat rangkaian</translation>
 <translation id="4816492930507672669">Muat halaman</translation>
 <translation id="483020001682031208">Tiada halaman Web Fizikal yang hendak dipaparkan</translation>
@@ -506,7 +506,7 @@
 <translation id="4958444002117714549">Kembangkan senarai</translation>
 <translation id="4974590756084640048">Dayakan semula amaran</translation>
 <translation id="4989809363548539747">Pemalam ini tidak disokong</translation>
-<translation id="5002932099480077015">Jika didayakan, Chrome akan menyimpan salinan kad anda pada peranti ini untuk pengisian borang yang lebih cepat.</translation>
+<translation id="5002932099480077015">Jika didayakan, Brave akan menyimpan salinan kad anda pada peranti ini untuk pengisian borang yang lebih cepat.</translation>
 <translation id="5018422839182700155">Tidak dapat membuka halaman ini</translation>
 <translation id="5019198164206649151">Simpanan penyandaran dalam keadaan buruk</translation>
 <translation id="5023310440958281426">Semak dasar pentadbir anda</translation>
@@ -535,7 +535,7 @@
 <translation id="5205222826937269299">Nama diperlukan</translation>
 <translation id="5222812217790122047">E-mel diperlukan</translation>
 <translation id="5251803541071282808">Awan</translation>
-<translation id="5277279256032773186">Menggunakan Chrome di tempat kerja? Perniagaan boleh mengurus tetapan Chrome untuk pekerja mereka. Ketahui lebih lanjut</translation>
+<translation id="5277279256032773186">Menggunakan Brave di tempat kerja? Perniagaan boleh mengurus tetapan Brave untuk pekerja mereka. Ketahui lebih lanjut</translation>
 <translation id="5281113152797308730"><ph name="BEGIN_PARAGRAPH" />Ikut langkah ini untuk melumpuhkan perisian buat sementara waktu supaya anda boleh memasuki web. Anda memerlukan keistimewaan pentadbir.<ph name="END_PARAGRAPH" />
 
     <ph name="BEGIN_LIST" />
@@ -544,7 +544,7 @@
     <ph name="LIST_ITEM" />Di bawah <ph name="BEGIN_BOLD" />Jenis permulaan<ph name="END_BOLD" />, pilih <ph name="BEGIN_BOLD" />Dilumpuhkan<ph name="END_BOLD" />
     <ph name="LIST_ITEM" />Di bawah <ph name="BEGIN_BOLD" />Status perkhidmatan<ph name="END_BOLD" />, klik <ph name="BEGIN_BOLD" />Berhenti<ph name="END_BOLD" />
     <ph name="LIST_ITEM" />Klik <ph name="BEGIN_BOLD" />Gunakan<ph name="END_BOLD" />, kemudian klik <ph name="BEGIN_BOLD" />OK<ph name="END_BOLD" />
-    <ph name="LIST_ITEM" />Lawati <ph name="BEGIN_LEARN_MORE_LINK" />Pusat bantuan Chrome<ph name="END_LEARN_MORE_LINK" /> untuk mengetahui cara mengalih keluar perisian daripada komputer anda secara kekal
+    <ph name="LIST_ITEM" />Lawati <ph name="BEGIN_LEARN_MORE_LINK" />Pusat bantuan Brave<ph name="END_LEARN_MORE_LINK" /> untuk mengetahui cara mengalih keluar perisian daripada komputer anda secara kekal
     <ph name="END_LIST" /></translation>
 <translation id="5297526204711817721">Sambungan anda ke tapak ini tidak peribadi. Untuk keluar daripada mod VR pada bila-bila masa, tanggalkan set kepala dan tekan kembali.</translation>
 <translation id="5299298092464848405">Ralat semasa menghuraikan dasar</translation>
@@ -580,7 +580,7 @@
 <translation id="5560088892362098740">Tarikh Tamat Tempoh</translation>
 <translation id="5565735124758917034">Aktif</translation>
 <translation id="5571083550517324815">Tidak boleh mengambil dari alamat ini. Pilih alamat lain.</translation>
-<translation id="5572851009514199876">Sila mulakan dan log masuk ke Chrome supaya Chrome boleh menyemak sama ada anda dibenarkan mengakses tapak ini.</translation>
+<translation id="5572851009514199876">Sila mulakan dan log masuk ke Brave supaya Brave boleh menyemak sama ada anda dibenarkan mengakses tapak ini.</translation>
 <translation id="5580958916614886209">Semak bulan tamat tempoh anda dan cuba lagi</translation>
 <translation id="5586446728396275693">Tiada alamat yang disimpan</translation>
 <translation id="5595485650161345191">Edit alamat</translation>
@@ -671,8 +671,8 @@
 <translation id="6355080345576803305">Pembatalan sesi awam</translation>
 <translation id="6358450015545214790">Apakah maksudnya?</translation>
 <translation id="6386120369904791316">{COUNT,plural, =1{1 cadangan lain}other{# cadangan lain}}</translation>
-<translation id="6387478394221739770">Berminat dengan ciri Chrome baharu yang hebat? Cuba saluran beta kami di chrome.com/beta.</translation>
-<translation id="6397451950548600259">Perisian pada komputer anda menghalang Chrome daripada menyambung ke web dengan selamat</translation>
+<translation id="6387478394221739770">Berminat dengan ciri Brave baharu yang hebat? Cuba saluran beta kami di chrome.com/beta.</translation>
+<translation id="6397451950548600259">Perisian pada komputer anda menghalang Brave daripada menyambung ke web dengan selamat</translation>
 <translation id="6404511346730675251">Edit penanda halaman</translation>
 <translation id="6410264514553301377">Masukkan tarikh tamat tempoh dan CVC untuk <ph name="CREDIT_CARD" /></translation>
 <translation id="6414888972213066896">Anda telah bertanya kepada ibu bapa anda sama ada OK untuk melawat tapak ini</translation>
@@ -685,10 +685,10 @@
 <translation id="6456339708790392414">Pembayaran Anda</translation>
 <translation id="6458467102616083041">Diabaikan kerana carian lalai dilumpuhkan oleh dasar.</translation>
 <translation id="647261751007945333">Dasar peranti</translation>
-<translation id="6477321094435799029">Chrome mengesan kod luar biasa pada halaman ini dan menyekatnya untuk melindungi maklumat peribadi anda (contohnya, kata laluan, nombor telefon dan maklumat kad kredit).</translation>
+<translation id="6477321094435799029">Brave mengesan kod luar biasa pada halaman ini dan menyekatnya untuk melindungi maklumat peribadi anda (contohnya, kata laluan, nombor telefon dan maklumat kad kredit).</translation>
 <translation id="6489534406876378309">Mulakan muat naik ranap sistem</translation>
 <translation id="6507833130742554667">Kad kredit dan debit diterima.</translation>
-<translation id="6508722015517270189">Mulakan semula Chrome</translation>
+<translation id="6508722015517270189">Mulakan semula Brave</translation>
 <translation id="6529602333819889595">&amp;Buat Semula Pemadaman</translation>
 <translation id="6534179046333460208">Cadangan Web Fizikal</translation>
 <translation id="6550675742724504774">Pilihan</translation>
@@ -801,7 +801,7 @@
 <translation id="7554791636758816595">Tab Baharu</translation>
 <translation id="7567204685887185387">Pelayan ini tidak dapat membuktikan bahawa domainnya ialah <ph name="DOMAIN" />; sijil keselamatannya mungkin telah dikeluarkan melalui penipuan. Ini mungkin disebabkan oleh kesilapan konfigurasi atau penyerang yang memintasi sambungan anda.</translation>
 <translation id="7568593326407688803">Halaman ini adalah dalam<ph name="ORIGINAL_LANGUAGE" />Adakah anda ingin menterjemahkannya?</translation>
-<translation id="7569952961197462199">Alih keluar kad kredit daripada Chrome?</translation>
+<translation id="7569952961197462199">Alih keluar kad kredit daripada Brave?</translation>
 <translation id="7569983096843329377">Hitam</translation>
 <translation id="7578104083680115302">Bayar dengan cepat di tapak dan apl merentas peranti menggunakan kad yang telah disimpan dengan Google.</translation>
 <translation id="7588950540487816470">Web Fizikal</translation>
@@ -819,7 +819,7 @@
 <translation id="7667346355482952095">Token dasar yang dikembalikan kosong atau tidak sepadan dengan token semasa</translation>
 <translation id="7668654391829183341">Peranti tidak diketahui</translation>
 <translation id="7669271284792375604">Penyerang pada tapak ini mungkin cuba menipu dengan meminta anda memasang atur cara yang membahayakan pengalaman penyemakan imbas anda (contohnya, dengan menukar halaman utama anda atau menunjukkan iklan tambahan pada laman yang anda lawati).</translation>
-<translation id="7674629440242451245">Berminat dengan ciri Chrome baharu yang hebat? Cuba saluran pembangun kami di chrome.com/dev.</translation>
+<translation id="7674629440242451245">Berminat dengan ciri Brave baharu yang hebat? Cuba saluran pembangun kami di chrome.com/dev.</translation>
 <translation id="7682287625158474539">Penghantaran</translation>
 <translation id="7701040980221191251">Tiada</translation>
 <translation id="7704050614460855821"><ph name="BEGIN_LINK" />Teruskan ke <ph name="SITE" /> (tidak selamat)<ph name="END_LINK" /></translation>
@@ -841,7 +841,7 @@
 <translation id="780301667611848630">Tidak, terima kasih</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="7813600968533626083">Alih keluar cadangan borang daripada Chrome?</translation>
+<translation id="7813600968533626083">Alih keluar cadangan borang daripada Brave?</translation>
 <translation id="7815407501681723534">Menemui <ph name="NUMBER_OF_RESULTS" /> <ph name="SEARCH_RESULTS" /> untuk '<ph name="SEARCH_STRING" />'</translation>
 <translation id="785549533363645510">Walau bagaimanapun, anda tidak halimunan. Apabila anda menggunakan mod inkognito, penyemakan imbas anda tidak akan disembunyikan daripada majikan anda, penyedia perkhidmatan Internet anda atau tapak web yang anda lawati.</translation>
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL" /> <ph name="CURRENCY_CODE" /> <ph name="FORMATTED_TOTAL_AMOUNT" /></translation>
@@ -907,7 +907,7 @@
 <translation id="8433057134996913067">Pemadaman ini akan membuatkan anda dilog keluar daripada kebanyakan tapak web.</translation>
 <translation id="8437238597147034694">&amp;Buat asal pindahkan</translation>
 <translation id="8466379296835108687">{COUNT,plural, =1{1 kad kredit}other{# kad kredit}}</translation>
-<translation id="8483780878231876732">Log masuk ke Chrome untuk menggunakan kad daripada Akaun Google anda</translation>
+<translation id="8483780878231876732">Log masuk ke Brave untuk menggunakan kad daripada Akaun Google anda</translation>
 <translation id="8488350697529856933">Diguna pakai untuk</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME" /> mengambil masa terlalu lama untuk bertindak balas.</translation>
 <translation id="8503813439785031346">Nama pengguna</translation>
@@ -971,7 +971,7 @@
 <translation id="9078964945751709336">Maklumat lanjut diperlukan</translation>
 <translation id="9103872766612412690"><ph name="SITE" /> biasanya menggunakan penyulitan untuk melindungi maklumat anda. Apabila Chromium cuba menyambung ke <ph name="SITE" /> pada kali ini, tapak web tersebut mengembalikan bukti kelayakan yang luar biasa dan salah. Hal ini boleh berlaku apabila penyerang sedang cuba menyamar sebagai <ph name="SITE" /> atau skrin log masuk Wi-Fi telah memutuskan sambungan. Maklumat anda masih selamat kerana Chromium menghentikan sambungan sebelum sebarang pertukaran data berlaku.</translation>
 <translation id="9137013805542155359">Paparkan asal</translation>
-<translation id="9137248913990643158">Sila mulakan dan log masuk ke Chrome sebelum menggunakan apl ini.</translation>
+<translation id="9137248913990643158">Sila mulakan dan log masuk ke Brave sebelum menggunakan apl ini.</translation>
 <translation id="9148507642005240123">&amp;Buat asal edit</translation>
 <translation id="9154194610265714752">Dikemas kini</translation>
 <translation id="9157595877708044936">Menyediakan...</translation>
