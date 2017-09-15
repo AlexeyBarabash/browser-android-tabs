@@ -3245,6 +3245,21 @@ Saved
       <message name="IDS_SEND_METRICS_TITLE" desc="Text for 'Send metrics' menu item.">
         Send metrics
       </message>
+      <message name="IDS_DESKTOP_MODE_TITLE" desc="Title of the setting for enabling Desktop View [CHAR-LIMIT=32]">
+        Desktop Mode
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_DESKTOP_VIEW_ENABLED_SUMMARY" desc="Summary text for Desktop View preferences mode enabled">
+        Prefer desktop version of sites
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_DESKTOP_VIEW_DISABLED_SUMMARY" desc="Summary text for Desktop View preferences mode enabled">
+        Prefer mobile version of sites
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_DESKTOP_VIEW_ENABLED" desc="Summary text explaining that sites will use Desktop Mode.">
+        Enable Desktop View for new tabs
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_DESKTOP_VIEW_DISABLED" desc="Summary text explaining that browser  will use mobile version of sites and that it is the recommended setting.">
+        Use mobile versions of sites for new tabs (recommended)
+      </message>
     </messages>
   </release>
 </grit>

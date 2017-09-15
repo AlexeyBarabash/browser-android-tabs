@@ -41,6 +41,7 @@ public class SiteSettingsCategory {
     public static final String CATEGORY_COOKIES = "cookies";
     public static final String CATEGORY_DEVICE_LOCATION = "device_location";
     public static final String CATEGORY_JAVASCRIPT = "javascript";
+    public static final String CATEGORY_DESKTOP_VIEW = "desktop_view";
     public static final String CATEGORY_MICROPHONE = "microphone";
     public static final String CATEGORY_NOTIFICATIONS = "notifications";
     public static final String CATEGORY_POPUPS = "popups";
@@ -106,6 +107,10 @@ public class SiteSettingsCategory {
             return new SiteSettingsCategory(CATEGORY_JAVASCRIPT, "",
                     ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT);
         }
+        if (CATEGORY_DESKTOP_VIEW.equals(category)) {
+            return new SiteSettingsCategory(CATEGORY_DESKTOP_VIEW, "",
+                    ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
+        }
         if (CATEGORY_DEVICE_LOCATION.equals(category)) {
             return new LocationCategory();
         }
@@ -162,6 +167,9 @@ public class SiteSettingsCategory {
         }
         if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_JAVASCRIPT) {
             return fromString(CATEGORY_JAVASCRIPT);
+        }
+        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW) {
+            return fromString(CATEGORY_DESKTOP_VIEW);
         }
         if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_GEOLOCATION) {
             return fromString(CATEGORY_DEVICE_LOCATION);
@@ -266,6 +274,13 @@ public class SiteSettingsCategory {
      */
     public boolean showPopupSites() {
         return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_POPUPS;
+    }
+
+    /**
+     * Returns whether this category is the Desktop View category.
+     */
+    public boolean showDesktopViewSites() {
+        return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW;
     }
 
     /**

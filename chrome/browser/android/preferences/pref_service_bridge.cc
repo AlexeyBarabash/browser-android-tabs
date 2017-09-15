@@ -225,6 +225,11 @@ static jboolean GetBackgroundSyncEnabled(JNIEnv* env,
   return GetBooleanForContentSetting(CONTENT_SETTINGS_TYPE_BACKGROUND_SYNC);
 }
 
+static jboolean GetDesktopViewEnabled(JNIEnv* env,
+                                         const JavaParamRef<jobject>& obj) {
+  return GetBooleanForContentSetting(CONTENT_SETTINGS_TYPE_DESKTOP_VIEW);
+}
+
 static jboolean GetBlockThirdPartyCookiesEnabled(
     JNIEnv* env,
     const JavaParamRef<jobject>& obj) {
@@ -663,6 +668,16 @@ static void SetBackgroundSyncEnabled(JNIEnv* env,
       HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
   host_content_settings_map->SetDefaultContentSetting(
       CONTENT_SETTINGS_TYPE_BACKGROUND_SYNC,
+      allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
+}
+
+static void SetDesktopViewEnabled(JNIEnv* env,
+                                     const JavaParamRef<jobject>& obj,
+                                     jboolean allow) {
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  host_content_settings_map->SetDefaultContentSetting(
+      CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
       allow ? CONTENT_SETTING_ALLOW : CONTENT_SETTING_BLOCK);
 }
 

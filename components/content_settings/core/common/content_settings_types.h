@@ -67,6 +67,9 @@ enum ContentSettingsType {
   // verdicts of each origin.
   CONTENT_SETTINGS_TYPE_PASSWORD_PROTECTION,
 
+  // This content setting type is for displaying desktop version of the website
+  CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,/*=32*/
+
   // WARNING: This enum is going to be removed soon. Do not depend on NUM_TYPES.
   CONTENT_SETTINGS_NUM_TYPES_DO_NOT_USE,
 };
