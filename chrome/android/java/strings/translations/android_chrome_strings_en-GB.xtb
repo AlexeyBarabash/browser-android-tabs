@@ -20,7 +20,7 @@
 <translation id="1209206284964581585">Hide for now</translation>
 <translation id="1211530540767271776">No USB devices here</translation>
 <translation id="123724288017357924">Reload the current page, ignoring cached content</translation>
-<translation id="1240668123557180468">Discover web pages sent by nearby objects. Brave gathers web pages associated with objects around you, sends them anonymously to a Google service to find the ones most useful to you, then displays them.
+<translation id="7577473598688168582">Discover web pages sent by nearby objects. Brave gathers web pages associated with objects around you, sends them anonymously to a Google service to find the ones most useful to you, then displays them.
 
 You must have Bluetooth and Location turned on in order to use the Physical Web.</translation>
 <translation id="124116460088058876">More languages</translation>
@@ -32,9 +32,9 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="1291207594882862231">Clear history, cookies, site data, cache…</translation>
 <translation id="129553762522093515">Recently closed</translation>
 <translation id="1303671224831497365">No Bluetooth devices found</translation>
-<translation id="1326317727527857210">To get your tabs from your other devices, sign in to Brave.</translation>
+<translation id="7253276740368043692">To get your tabs from your other devices, sign in to Brave.</translation>
 <translation id="132830257261478853">Address bar. Pull down to close navigation panel.</translation>
-<translation id="1332501820983677155">Brave feature shortcuts</translation>
+<translation id="3169981355900570544">Brave feature shortcuts</translation>
 <translation id="1339917386316755344">Signs you out of most sites. You won't be signed out of you Google account.</translation>
 <translation id="1369915414381695676">Site <ph name="SITE_NAME" /> added</translation>
 <translation id="1373696734384179344">Insufficient memory to download the selected content.</translation>
@@ -52,7 +52,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="1416550906796893042">Application version</translation>
 <translation id="1423209968422390786">Location access is <ph name="BEGIN_LINK" />turned off for this device<ph name="END_LINK" />.</translation>
 <translation id="1430915738399379752">Print</translation>
-<translation id="1445680696957526815">Brave’s components are incompatible with one another. Brave may be upgrading, please try again in a few minutes. If the problem continues, try uninstalling and re-installing Brave.</translation>
+<translation id="8787783076961337997">Brave’s components are incompatible with one another. Brave may be upgrading, please try again in a few minutes. If the problem continues, try uninstalling and re-installing Brave.</translation>
 <translation id="1446450296470737166">Allow full control of MIDI devices</translation>
 <translation id="145097072038377568">Turned off in Android Settings</translation>
 <translation id="1455941322673536744">Autofill and payments</translation>
@@ -61,12 +61,12 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="1506061864768559482">Search engine</translation>
 <translation id="1513352483775369820">Bookmarks and web history</translation>
 <translation id="1513858653616922153">Delete password</translation>
-<translation id="1539064842193522527">Link opened in Brave</translation>
+<translation id="5391716732704154441">Link opened in Brave</translation>
 <translation id="1549000191223877751">Move to other window</translation>
-<translation id="1553358976309200471">Update Brave</translation>
+<translation id="1705567146636171298">Update Brave</translation>
 <translation id="1569387923882100876">Connected device</translation>
 <translation id="1571304935088121812">Copy username</translation>
-<translation id="1612196535745283361">Brave needs location access to scan for devices. Location access is <ph name="BEGIN_LINK" />turned off for this device<ph name="END_LINK" />.</translation>
+<translation id="852740676285943527">Brave needs location access to scan for devices. Location access is <ph name="BEGIN_LINK" />turned off for this device<ph name="END_LINK" />.</translation>
 <translation id="1620510694547887537">Camera</translation>
 <translation id="1623104350909869708">Prevent this page from creating additional dialogues</translation>
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Remove 1 selected item}other{Remove # selected items}}</translation>
@@ -96,7 +96,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="1919345977826869612">Ads</translation>
 <translation id="1933845786846280168">Selected Tab</translation>
 <translation id="1938981467853765413">Provide feedback</translation>
-<translation id="194341124344773587">Turn on permission for Brave in <ph name="BEGIN_LINK" />Android Settings<ph name="END_LINK" />.</translation>
+<translation id="6665548517310046133">Turn on permission for Brave in <ph name="BEGIN_LINK" />Android Settings<ph name="END_LINK" />.</translation>
 <translation id="1943432128510653496">Save passwords</translation>
 <translation id="1944384637046898011">Encrypt all with Google password as of <ph name="TIME" /></translation>
 <translation id="1946005195648379376">Control how Google uses your browsing history to personalise Search and other Google services.</translation>
@@ -107,7 +107,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="1994173015038366702">Site URL</translation>
 <translation id="2000271276660256125">For security reasons, you need to confirm your screen lock in order to access your password.</translation>
 <translation id="200815880754187296"><ph name="KILOBYTES" /> KB other apps</translation>
-<translation id="2011013297378343166">By using this application, you agree to Brave’s <ph name="BEGIN_LINK1" />Terms of Service<ph name="END_LINK1" /> and <ph name="BEGIN_LINK2" />Privacy Notice<ph name="END_LINK2" />, and the <ph name="BEGIN_LINK3" />Privacy Notice for Google Accounts Created in Family Link<ph name="END_LINK3" />.</translation>
+<translation id="3747546817209932143">By using this application, you agree to Brave’s <ph name="BEGIN_LINK1" />Terms of Service<ph name="END_LINK1" /> and <ph name="BEGIN_LINK2" />Privacy Notice<ph name="END_LINK2" />, and the <ph name="BEGIN_LINK3" />Privacy Notice for Google Accounts Created in Family Link<ph name="END_LINK3" />.</translation>
 <translation id="2017836877785168846">Clears history and autocompletions in the address bar.</translation>
 <translation id="2020525020270327736">Copy site</translation>
 <translation id="2038563949887743358">Turn on Request desktop site</translation>
@@ -115,11 +115,11 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="2073732792864401646">Reset statistics</translation>
 <translation id="2079545284768500474">Undo</translation>
 <translation id="2082238445998314030">Result <ph name="RESULT_NUMBER" /> of <ph name="TOTAL_RESULTS" /></translation>
-<translation id="2095887075102408547">When this feature is turned on, Brave will use Google servers to compress pages that you visit before downloading them. Pages accessed using private connections (HTTPS) or in Incognito tabs will not be optimised or seen by Google.</translation>
+<translation id="5683611263714067487">When this feature is turned on, Brave will use Google servers to compress pages that you visit before downloading them. Pages accessed using private connections (HTTPS) or in Incognito tabs will not be optimised or seen by Google.</translation>
 <translation id="2096396629993765042">You won’t be signed out of your Google account. Your Google account may have other forms of browsing history at <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />.</translation>
 <translation id="2100273922101894616">Auto Sign-in</translation>
 <translation id="2111511281910874386">Go to page</translation>
-<translation id="2126426811489709554">Powered by Brave</translation>
+<translation id="796823723482603597">Powered by Brave</translation>
 <translation id="2131665479022868825"><ph name="DATA" /> saved</translation>
 <translation id="213279576345780926">Closed <ph name="TAB_TITLE" /></translation>
 <translation id="2139186145475833000">Add to Home screen</translation>
@@ -136,10 +136,10 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="2315043854645842844">Client side certificate selection is not supported by the operating system.</translation>
 <translation id="2321958826496381788">Drag the slider until you can read this comfortably. Text should look at least this big after double-tapping on a paragraph.</translation>
 <translation id="2323763861024343754">Site storage</translation>
-<translation id="2342981853652716282">Sign in to Brave to get your bookmarks, passwords and more on all your devices.</translation>
+<translation id="2383368349763668234">Sign in to Brave to get your bookmarks, passwords and more on all your devices.</translation>
 <translation id="2343328333327081434">Installing…</translation>
 <translation id="2346253980530904022">Google servers will optimise the pages that you visit, except for HTTPS and Incognito.</translation>
-<translation id="2349710944427398404">Total data used by Brave, including accounts, bookmarks and saved settings</translation>
+<translation id="3587672679800759167">Total data used by Brave, including accounts, bookmarks and saved settings</translation>
 <translation id="2351097562818989364">Your translate settings have been reset.</translation>
 <translation id="2359808026110333948">Continue</translation>
 <translation id="2369533728426058518">open tabs</translation>
@@ -147,7 +147,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="2387895666653383613">Text scaling</translation>
 <translation id="238909021488141516">An error occurred while downloading the content.</translation>
 <translation id="2414886740292270097">Dark</translation>
-<translation id="2416359993254398973">Brave needs permission to access your camera for this site.</translation>
+<translation id="8285489906452138776">Brave needs permission to access your camera for this site.</translation>
 <translation id="2433507940547922241">Appearance</translation>
 <translation id="2440823041667407902">Location access</translation>
 <translation id="2450083983707403292">Do you want to start downloading <ph name="FILE_NAME" /> again?</translation>
@@ -163,7 +163,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="2546283357679194313">Cookies and site data</translation>
 <translation id="2567385386134582609">IMAGE</translation>
 <translation id="257931822824936280">Expanded – click to collapse.</translation>
-<translation id="2581165646603367611">This will clear cookies, cache and other data of sites Brave doesn't think is important.</translation>
+<translation id="2324920234469020158">This will clear cookies, cache and other data of sites Brave doesn't think is important.</translation>
 <translation id="2587052924345400782">Newer version is available</translation>
 <translation id="2593272815202181319">Monospace</translation>
 <translation id="2612676031748830579">Card number</translation>
@@ -185,11 +185,11 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="2842985007712546952">Parent folder</translation>
 <translation id="2870560284913253234">Site</translation>
 <translation id="2874939134665556319">Previous track</translation>
-<translation id="2876764156902388290">Brave is using less data to show you this page</translation>
-<translation id="2888126860611144412">About Brave</translation>
+<translation id="7811876019775262451">Brave is using less data to show you this page</translation>
+<translation id="8541922081612557424">About Brave</translation>
 <translation id="2891154217021530873">Stop page loading</translation>
 <translation id="2900528713135656174">Create event</translation>
-<translation id="2902702728133930130">Brave failed during start-up with an unexpected error.</translation>
+<translation id="1325620727886562640">Brave failed during start-up with an unexpected error.</translation>
 <translation id="2903493209154104877">Addresses</translation>
 <translation id="290376772003165898">Page is not in <ph name="LANGUAGE" />?</translation>
 <translation id="2913331724188855103">Allow sites to save and read cookie data (recommended)</translation>
@@ -208,14 +208,14 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="3036750288708366620"><ph name="BEGIN_LINK" />Get help<ph name="END_LINK" /></translation>
 <translation id="307908932405420782">More articles will appear soon. Enjoy your morning!</translation>
 <translation id="3089395242580810162">Open in incognito tab</translation>
-<translation id="311456632243022227">Multiple links opened in Brave</translation>
+<translation id="7538199373972631815">Multiple links opened in Brave</translation>
 <translation id="3115898365077584848">Show info</translation>
 <translation id="3137521801621304719">Leave incognito mode</translation>
-<translation id="3148434565183091099">To get your bookmarks on all your devices, sign in to Brave.</translation>
+<translation id="6598362917316690141">To get your bookmarks on all your devices, sign in to Brave.</translation>
 <translation id="3157842584138209013">See how much data that you've saved from the More Options button</translation>
 <translation id="3166827708714933426">Tab and window shortcuts</translation>
 <translation id="3177909033752230686">Page language:</translation>
-<translation id="3190152372525844641">Turn on permissions for Brave in <ph name="BEGIN_LINK" />Android Settings<ph name="END_LINK" />.</translation>
+<translation id="2023546461831060654">Turn on permissions for Brave in <ph name="BEGIN_LINK" />Android Settings<ph name="END_LINK" />.</translation>
 <translation id="3198916472715691905"><ph name="STORAGE_AMOUNT" /> stored data</translation>
 <translation id="3207960819495026254">Bookmarked</translation>
 <translation id="321773570071367578">If you forgot your passphrase or want to change this setting, <ph name="BEGIN_LINK" />reset sync<ph name="END_LINK" /></translation>
@@ -227,7 +227,7 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="3259831549858767975">Make everything on the page smaller</translation>
 <translation id="3269093882174072735">Load image</translation>
 <translation id="3269956123044984603">To get your tabs from your other devices, turn on “Auto-sync data” in Android account settings.</translation>
-<translation id="3282568296779691940">Sign in to Brave</translation>
+<translation id="82609232232243542">Sign in to Brave</translation>
 <translation id="3295602654194328831">Hide info</translation>
 <translation id="3303414029551471755">Proceed to download the content?</translation>
 <translation id="3319792846664697699">Navigation panel</translation>
@@ -255,13 +255,13 @@ You must have Bluetooth and Location turned on in order to use the Physical Web.
 <translation id="3542235761944717775"><ph name="KILOBYTES" /> KB available</translation>
 <translation id="3549644494707163724">Encrypt all synced data with your own sync passphrase</translation>
 <translation id="3549657413697417275">Search your history</translation>
-<translation id="3552151358455404883">Manage Brave Sync and personalisation in <ph name="BEGIN_LINK1" />Settings<ph name="END_LINK1" /></translation>
+<translation id="6007924201997605734">Manage Brave Sync and personalisation in <ph name="BEGIN_LINK1" />Settings<ph name="END_LINK1" /></translation>
 <translation id="3557336313807607643">Add to contacts</translation>
 <translation id="3583454905526475291">Could not launch app</translation>
 <translation id="3587482841069643663">All</translation>
-<translation id="3590487821116122040">Site storage Brave doesn't think is important (e.g. sites with no saved settings or that you don't visit often)</translation>
+<translation id="9205995714227143200">Site storage Brave doesn't think is important (e.g. sites with no saved settings or that you don't visit often)</translation>
 <translation id="3599863153486145794">Clears history from all signed-in devices. Your Google account may have other forms of browsing history at <ph name="BEGIN_LINK" />myactivity.google.com<ph name="END_LINK" />.</translation>
-<translation id="360207483134687714">Help improve the VR experience in Brave</translation>
+<translation id="5104401920787827410">Help improve the VR experience in Brave</translation>
 <translation id="360480449234699036">Learn about topics on websites without leaving the page. Touch to Search sends a word and its surrounding context to Google Search, returning definitions, pictures, search results and other details.
 
 To adjust your search term, long press to select. To refine your search, slide the panel all the way up and touch the search box.</translation>
@@ -294,7 +294,7 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="3928666092801078803">Combine my data</translation>
 <translation id="3931947361983910192">last 4 weeks</translation>
 <translation id="393697183122708255">No enabled voice search available</translation>
-<translation id="3946611741043634542">By continuing, you agree to Brave’s <ph name="BEGIN_LINK1" />Terms of Service<ph name="END_LINK1" /> and <ph name="BEGIN_LINK2" />Privacy Notice<ph name="END_LINK2" />.</translation>
+<translation id="2596099594329365192">By continuing, you agree to Brave’s <ph name="BEGIN_LINK1" />Terms of Service<ph name="END_LINK1" /> and <ph name="BEGIN_LINK2" />Privacy Notice<ph name="END_LINK2" />.</translation>
 <translation id="3950820424414687140">Sign in</translation>
 <translation id="395922942268463099">Pages updated regularly</translation>
 <translation id="3967822245660637423">Download complete</translation>
@@ -314,8 +314,8 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="4084836577264234537"><ph name="MEGABYTES" /> MB downloaded</translation>
 <translation id="4089831646916293264">This feature may interfere with access to premium data services provided by your operator.</translation>
 <translation id="4095146165863963773">Delete app data?</translation>
-<translation id="4097739989936358050">This app is running in Brave.</translation>
-<translation id="4099578267706723511">Help make Brave better by sending usage statistics and crash reports to Google.</translation>
+<translation id="4846058888524826876">This app is running in Brave.</translation>
+<translation id="1689813225531684903">Help make Brave better by sending usage statistics and crash reports to Google.</translation>
 <translation id="410351446219883937">Autoplay</translation>
 <translation id="4113030288477039509">Managed by your administrator</translation>
 <translation id="4116038641877404294">Download pages to use them offline</translation>
@@ -324,7 +324,7 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="4195643157523330669">Open in new tab</translation>
 <translation id="4226663524361240545">Notifications may vibrate the device</translation>
 <translation id="4242533952199664413">Open settings</translation>
-<translation id="424864128008805179">Sign out of Brave?</translation>
+<translation id="7445061995866044926">Sign out of Brave?</translation>
 <translation id="4254813446494774748">Translation language:</translation>
 <translation id="4256782883801055595">Open-source licences</translation>
 <translation id="4259722352634471385">Navigation is blocked: <ph name="URL" /></translation>
@@ -344,7 +344,7 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="4452548195519783679">Bookmarked to <ph name="FOLDER_NAME" /></translation>
 <translation id="4453340223357552416"><ph name="FILE_NAME" /> downloaded in <ph name="PRODUCT_NAME" /></translation>
 <translation id="4479647676395637221">Ask first before allowing sites to use your camera (recommended)</translation>
-<translation id="4487967297491345095">All Brave’s app data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</translation>
+<translation id="53119194224775367">All Brave’s app data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</translation>
 <translation id="4508440807153586353">Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Google. If you forget your passphrase or want to change this setting you'll need to reset sync. <ph name="BEGIN_LINK" />Find out more<ph name="END_LINK" /></translation>
 <translation id="4513387527876475750">{DAYS,plural, =1{# day ago}other{# days ago}}</translation>
 <translation id="451872707440238414">Search your bookmarks</translation>
@@ -364,7 +364,7 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="4684427112815847243">Sync everything</translation>
 <translation id="4686372254213217147">Original size</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW" />\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" /> more}other{<ph name="SHIPPING_OPTION_PREVIEW" />\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS" /> more}}</translation>
-<translation id="4698413471314543145">Critical functionality required to run Brave is missing; either your Brave installation is incomplete or not compatible with this version of Android.</translation>
+<translation id="6759555357467337575">Critical functionality required to run Brave is missing; either your Brave installation is incomplete or not compatible with this version of Android.</translation>
 <translation id="4699172675775169585">Cached images and files</translation>
 <translation id="4714588616299687897">Save up to 60% of your data</translation>
 <translation id="4720023427747327413">Open in <ph name="PRODUCT_NAME" /></translation>
@@ -382,7 +382,7 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="4850886885716139402">View</translation>
 <translation id="4860895144060829044">Call</translation>
 <translation id="4881695831933465202">Open</translation>
-<translation id="4885273946141277891">Unsupported number of Brave instances.</translation>
+<translation id="1248710015876067820">Unsupported number of Brave instances.</translation>
 <translation id="4910889077668685004">Payment apps</translation>
 <translation id="4913169188695071480">Stop refreshing</translation>
 <translation id="4915549754973153784"><ph name="BEGIN_LINK" />Get help<ph name="END_LINK" /> while scanning for devices…</translation>
@@ -408,9 +408,9 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="515227803646670480">Clear stored data</translation>
 <translation id="5152843274749979095">No supported apps installed</translation>
 <translation id="5161254044473106830">Title required</translation>
-<translation id="5164482624172255778">Would you like Brave to offer to translate <ph name="LANGUAGE" /> pages from this site next time?</translation>
+<translation id="7435349661593331474">Would you like Brave to offer to translate <ph name="LANGUAGE" /> pages from this site next time?</translation>
 <translation id="5168917394043976756">Open navigation drawer</translation>
-<translation id="5184329579814168207">Open in Brave</translation>
+<translation id="8445059357334030806">Open in Brave</translation>
 <translation id="5199929503336119739">Work profile</translation>
 <translation id="5209320130288484488">No devices found</translation>
 <translation id="5210286577605176222">Jump to the previous tab</translation>
@@ -423,7 +423,7 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="5301954838959518834">OK, got it</translation>
 <translation id="5304593522240415983">This field cannot be blank</translation>
 <translation id="5308380583665731573">Connect</translation>
-<translation id="5308603654685598744">When this feature is turned on, Brave will offer to translate pages written in other languages using Google Translate.</translation>
+<translation id="2101837804578921155">When this feature is turned on, Brave will offer to translate pages written in other languages using Google Translate.</translation>
 <translation id="5313967007315987356">Add site</translation>
 <translation id="5317780077021120954">Save</translation>
 <translation id="5324858694974489420">Parental Settings</translation>
@@ -432,7 +432,7 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="5345040418939504969">Deleted <ph name="BOOKMARK_TITLE" /></translation>
 <translation id="5345083863238459644">Location access is also <ph name="BEGIN_LINK" />turned off for this device<ph name="END_LINK" />.</translation>
 <translation id="5372829067651257087">URL copied.</translation>
-<translation id="5400569084694353794">By using this application, you agree to Brave’s <ph name="BEGIN_LINK1" />Terms of Service<ph name="END_LINK1" /> and <ph name="BEGIN_LINK2" />Privacy Notice<ph name="END_LINK2" />.</translation>
+<translation id="2700285883409956633">By using this application, you agree to Brave’s <ph name="BEGIN_LINK1" />Terms of Service<ph name="END_LINK1" /> and <ph name="BEGIN_LINK2" />Privacy Notice<ph name="END_LINK2" />.</translation>
 <translation id="5403644198645076998">Only allow certain sites</translation>
 <translation id="5414836363063783498">Verifying…</translation>
 <translation id="5423934151118863508">Your most visited pages will appear here</translation>
@@ -445,18 +445,18 @@ To adjust your search term, long press to select. To refine your search, slide t
 <translation id="5456381639095306749">Download page</translation>
 <translation id="548278423535722844">Open in maps app</translation>
 <translation id="5487521232677179737">Clear data</translation>
-<translation id="5487729733663684359">Brave updates are no longer supported for this version of Android.</translation>
+<translation id="5819262777401918504">Brave updates are no longer supported for this version of Android.</translation>
 <translation id="5490801865084500306">Bookmarks tab selected</translation>
 <translation id="5512137114520586844">This account is managed by <ph name="PARENT_NAME" />.</translation>
 <translation id="5514904542973294328">Disabled by the administrator of this device</translation>
 <translation id="5517095782334947753">You have bookmarks, history, passwords and other settings from <ph name="FROM_ACCOUNT" />.</translation>
-<translation id="5527082711130173040">Brave needs location access to scan for devices. <ph name="BEGIN_LINK1" />Update permissions<ph name="END_LINK1" />. Location access is also <ph name="BEGIN_LINK2" />turned off for this device<ph name="END_LINK2" />.</translation>
+<translation id="2367014990350929709">Brave needs location access to scan for devices. <ph name="BEGIN_LINK1" />Update permissions<ph name="END_LINK1" />. Location access is also <ph name="BEGIN_LINK2" />turned off for this device<ph name="END_LINK2" />.</translation>
 <translation id="5530766185686772672">Close incognito tabs</translation>
 <translation id="5534640966246046842">Site copied</translation>
-<translation id="5537099431952529648">You and your parents can manage Brave Sync and personalisation in <ph name="BEGIN_LINK1" />Settings<ph name="END_LINK1" /></translation>
+<translation id="740818581291952007">You and your parents can manage Brave Sync and personalisation in <ph name="BEGIN_LINK1" />Settings<ph name="END_LINK1" /></translation>
 <translation id="5556459405103347317">Reload</translation>
 <translation id="5568069709869097550">Can't sign in</translation>
-<translation id="557283862590186398">Brave needs permission to access your microphone for this site.</translation>
+<translation id="320189792589364011">Brave needs permission to access your microphone for this site.</translation>
 <translation id="5578795271662203820">Search <ph name="SEARCH_ENGINE" /> for this image</translation>
 <translation id="5585019845078534178">Cards</translation>
 <translation id="5595485650161345191">Edit address</translation>
@@ -480,9 +480,9 @@ However, you aren't invisible. Going incognito doesn't hide your browsing from y
 <translation id="572328651809341494">Recent tabs</translation>
 <translation id="572392919096807438">Remember my decision</translation>
 <translation id="5726692708398506830">Make everything on the page bigger</translation>
-<translation id="5738816946784116349">Brave Downloads</translation>
+<translation id="7560102073564187144">Brave Downloads</translation>
 <translation id="5748802427693696783">Switched to standard tabs</translation>
-<translation id="5749068826913805084">Brave needs storage access to download files.</translation>
+<translation id="3088191967551450609">Brave needs storage access to download files.</translation>
 <translation id="5763382633136178763">Incognito tabs</translation>
 <translation id="5765780083710877561">Description:</translation>
 <translation id="5777170031995031090">Control how Google uses your browsing history to personalise Search, ads and other Google services.</translation>
@@ -492,8 +492,8 @@ However, you aren't invisible. Going incognito doesn't hide your browsing from y
 <translation id="583281660410589416">Unknown</translation>
 <translation id="5832934273103296195">Expanded – Click to collapse</translation>
 <translation id="5833984609253377421">Share link</translation>
-<translation id="583891442612896534">Brave is unable to reach Google servers for data compression. Your data savings may be limited.</translation>
-<translation id="5858741533101922242">Brave is unable to turn on Bluetooth adaptor</translation>
+<translation id="5284475768142957250">Brave is unable to reach Google servers for data compression. Your data savings may be limited.</translation>
+<translation id="998321811308652668">Brave is unable to turn on Bluetooth adaptor</translation>
 <translation id="5860033963881614850">Off</translation>
 <translation id="5867841422488265304">Search or type web address</translation>
 <translation id="5869522115854928033">Saved passwords</translation>
@@ -505,7 +505,7 @@ However, you aren't invisible. Going incognito doesn't hide your browsing from y
 <translation id="5923939907038835197">Find news, recipes, weather...</translation>
 <translation id="5939518447894949180">Reset</translation>
 <translation id="5942872142862698679">Using Google for search</translation>
-<translation id="5956665950594638604">Open the Brave Help Centre in a new tab</translation>
+<translation id="305870044889644984">Open the Brave Help Centre in a new tab</translation>
 <translation id="5958275228015807058">Find your files and pages in Downloads</translation>
 <translation id="5962718611393537961">Tap to collapse</translation>
 <translation id="6000066717592683814">Keep Google</translation>
@@ -546,7 +546,7 @@ For example, some websites may respond to this request by showing you ads that a
 <translation id="6364438453358674297">Remove suggestion from history?</translation>
 <translation id="6383961787135158834">Clear Site Storage…</translation>
 <translation id="6388207532828177975">Clear &amp; reset</translation>
-<translation id="6393863479814692971">Brave needs permission to access your camera and microphone for this site.</translation>
+<translation id="7988136689212463100">Brave needs permission to access your camera and microphone for this site.</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="6404511346730675251">Edit bookmark</translation>
 <translation id="6406506848690869874">Sync</translation>
@@ -570,23 +570,23 @@ For example, some websites may respond to this request by showing you ads that a
 <translation id="6550675742724504774">Options</translation>
 <translation id="6556716549745717622">Block if site tends to show intrusive ads (recommended)</translation>
 <translation id="6560414384669816528">Search with Sogou</translation>
-<translation id="6566259936974865419">Brave has saved you <ph name="GIGABYTES" /> GB</translation>
+<translation id="5813223329348543512">Brave has saved you <ph name="GIGABYTES" /> GB</translation>
 <translation id="656628257199996201">Always translate <ph name="SOURCE_LANGUAGE" /></translation>
-<translation id="6573431926118603307">Tabs that you've opened in Brave on your other devices will appear here.</translation>
+<translation id="5157964048453367290">Tabs that you've opened in Brave on your other devices will appear here.</translation>
 <translation id="6575643671698722332">Reset failed. Ensure that your device is online and try again.</translation>
 <translation id="6583199322650523874">Bookmark the current page</translation>
-<translation id="6600954340915313787">Copied to Brave</translation>
+<translation id="663059986967017181">Copied to Brave</translation>
 <translation id="6612358246767739896">Protected content</translation>
 <translation id="6627583120233659107">Edit folder</translation>
 <translation id="6643016212128521049">Clear</translation>
 <translation id="6648977384226967773">{CONTACT,plural, =1{<ph name="CONTACT_PREVIEW" />\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" /> more}other{<ph name="CONTACT_PREVIEW" />\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS" /> more}}</translation>
-<translation id="6656545060687952787">Brave needs location access to scan for devices. <ph name="BEGIN_LINK" />Update permissions<ph name="END_LINK" /></translation>
+<translation id="8428644385678426438">Brave needs location access to scan for devices. <ph name="BEGIN_LINK" />Update permissions<ph name="END_LINK" /></translation>
 <translation id="6657585470893396449">Password</translation>
 <translation id="6659594942844771486">Tab</translation>
 <translation id="666268767214822976">Use a prediction service to show related queries and popular websites as you type in the address bar</translation>
 <translation id="666731172850799929">Open in <ph name="APP_NAME" /></translation>
-<translation id="666981079809192359">Brave Privacy Notice</translation>
-<translation id="6697947395630195233">Brave needs access to your location to share your location with this site.</translation>
+<translation id="7392539049993970338">Brave Privacy Notice</translation>
+<translation id="4931190655840828017">Brave needs access to your location to share your location with this site.</translation>
 <translation id="6698801883190606802">Manage synced data</translation>
 <translation id="6701279291835318271">Security Reports</translation>
 <translation id="6710213216561001401">Previous</translation>
@@ -594,7 +594,7 @@ For example, some websites may respond to this request by showing you ads that a
 <translation id="6738867403308150051">Downloading…</translation>
 <translation id="6762156594045689028">To change this setting, <ph name="BEGIN_LINK" />reset sync<ph name="END_LINK" /></translation>
 <translation id="6764789522080107716">Can't open file</translation>
-<translation id="6770414673596662518">Brave’s Safe Browsing system will also be used to detect malicious pages and protect you from phishing, malware and harmful downloads.</translation>
+<translation id="6904937320877577556">Brave’s Safe Browsing system will also be used to detect malicious pages and protect you from phishing, malware and harmful downloads.</translation>
 <translation id="6790428901817661496">Play</translation>
 <translation id="679325081238418596">Get your bookmarks, history, passwords and other settings on all your devices</translation>
 <translation id="6820607729870073286">You have no saved website settings.</translation>
@@ -656,7 +656,7 @@ For example, some websites may respond to this request by showing you ads that a
 <translation id="7378627244592794276">Nope</translation>
 <translation id="7400418766976504921">URL</translation>
 <translation id="7423098979219808738">Ask first</translation>
-<translation id="7437998757836447326">Sign out of Brave</translation>
+<translation id="6234515504547364178">Sign out of Brave</translation>
 <translation id="7445411102860286510">Allow sites to automatically play muted videos (recommended)</translation>
 <translation id="7455923816558154057">Tap to view</translation>
 <translation id="7464701184726199289">This clears synced data from all devices. Saved site settings will not be deleted and may reflect your browsing habits. <ph name="BEGIN_LINK" />Find out more<ph name="END_LINK" /></translation>
@@ -664,7 +664,7 @@ For example, some websites may respond to this request by showing you ads that a
 <translation id="7475192538862203634">If you’re seeing this frequently, try these <ph name="BEGIN_LINK" />suggestions<ph name="END_LINK" />.</translation>
 <translation id="748127970106343339">Confirm device credential deletion</translation>
 <translation id="7481312909269577407">Forward</translation>
-<translation id="7487352416683556407">The selected data has been removed from Brave and your synced devices.
+<translation id="3689342442852563375">The selected data has been removed from Brave and your synced devices.
 
 Your Google account may have other forms of browsing history like searches and activity from other Google services at <ph name="BEGIN_LINK" />history.google.com<ph name="END_LINK" />.</translation>
 <translation id="7493994139787901920"><ph name="VERSION" /> (Updated <ph name="TIME_SINCE_UPDATE" />)</translation>
@@ -672,10 +672,10 @@ Your Google account may have other forms of browsing history like searches and a
 <translation id="7514365320538308">Download</translation>
 <translation id="7521387064766892559">JavaScript</translation>
 <translation id="7562080006725997899">Clear browsing data</translation>
-<translation id="756809126120519699">Cleared Brave data</translation>
+<translation id="7814200940910057384">Cleared Brave data</translation>
 <translation id="7588950540487816470">Physical Web</translation>
 <translation id="7589445247086920869">Block for current search engine</translation>
-<translation id="7593557518625677601">Open Android settings and re-enable Android system sync to start Brave sync</translation>
+<translation id="3235722914093408050">Open Android settings and re-enable Android system sync to start Brave sync</translation>
 <translation id="7596558890252710462">Operating system</translation>
 <translation id="7600965453749440009">Never translate <ph name="LANGUAGE" /></translation>
 <translation id="7605594153474022051">Sync isn't working</translation>
@@ -683,7 +683,7 @@ Your Google account may have other forms of browsing history like searches and a
 <translation id="7612619742409846846">Signed in to Google as</translation>
 <translation id="7619072057915878432"><ph name="FILE_NAME" /> download failed due to network failures.</translation>
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1" />Get help<ph name="END_LINK1" /> or <ph name="BEGIN_LINK2" />re-scan<ph name="END_LINK2" /></translation>
-<translation id="7626032353295482388">Welcome to Brave</translation>
+<translation id="7207456302801184289">Welcome to Brave</translation>
 <translation id="7638584964844754484">Incorrect passphrase</translation>
 <translation id="7641339528570811325">Clear browsing data…</translation>
 <translation id="7648422057306047504">Encrypt passwords with Google credentials</translation>
@@ -712,7 +712,7 @@ Your Google account may have other forms of browsing history like searches and a
 <translation id="7942131818088350342"><ph name="PRODUCT_NAME" /> is out of date.</translation>
 <translation id="7947953824732555851">Accept and sign in</translation>
 <translation id="7963646190083259054">Vendor:</translation>
-<translation id="7987073022710626672">Brave Terms of Service</translation>
+<translation id="1138681184697033370">Brave Terms of Service</translation>
 <translation id="7998918019931843664">Re-open closed tab</translation>
 <translation id="7999064672810608036">Are you sure that you want to clear all local data, including cookies, and reset all permissions for this website?</translation>
 <translation id="8004582292198964060">Browser</translation>
@@ -724,7 +724,7 @@ Your Google account may have other forms of browsing history like searches and a
 <translation id="8035133914807600019">New folder…</translation>
 <translation id="8037750541064988519"><ph name="DAYS" /> days left</translation>
 <translation id="8051695050440594747"><ph name="MEGABYTES" /> MB available</translation>
-<translation id="8058746566562539958">Open in new Brave tab</translation>
+<translation id="2317945146070194624">Open in new Brave tab</translation>
 <translation id="8063895661287329888">Failed to add bookmark.</translation>
 <translation id="806745655614357130">Keep my data separate</translation>
 <translation id="8068648041423924542">Unable to select certificate.</translation>
@@ -804,7 +804,7 @@ Your Google account may have other forms of browsing history like searches and a
 <translation id="8922289737868596582">Download pages from the More Options button to use them offline</translation>
 <translation id="8941729603749328384">www.example.com</translation>
 <translation id="8942627711005830162">Open in other window</translation>
-<translation id="8951232171465285730">Brave has saved you <ph name="MEGABYTES" /> MB</translation>
+<translation id="3257320067425202300">Brave has saved you <ph name="MEGABYTES" /> MB</translation>
 <translation id="8959122750345127698">Navigation is unreachable: <ph name="URL" /></translation>
 <translation id="896250263197055929">Downloads tab selected</translation>
 <translation id="8979340629087822094">past day</translation>
@@ -839,7 +839,7 @@ Your Google account may have other forms of browsing history like searches and a
 <translation id="938850635132480979">Error: <ph name="ERROR_CODE" /></translation>
 <translation id="945632385593298557">Access your microphone</translation>
 <translation id="951339005376969845">Delete existing data. You can retrieve it by switching back to <ph name="FROM_ACCOUNT" />.</translation>
-<translation id="95817756606698420">Brave can use <ph name="BEGIN_BOLD" />Sogou<ph name="END_BOLD" /> for search in China. You can change this in <ph name="BEGIN_LINK" />Settings<ph name="END_LINK" />.</translation>
+<translation id="5406914950576900927">Brave can use <ph name="BEGIN_BOLD" />Sogou<ph name="END_BOLD" /> for search in China. You can change this in <ph name="BEGIN_LINK" />Settings<ph name="END_LINK" />.</translation>
 <translation id="969096075394517431">Change languages</translation>
 <translation id="970715775301869095"><ph name="MINUTES" /> mins left</translation>
 <translation id="974555521953189084">Enter your passphrase to start sync</translation>
