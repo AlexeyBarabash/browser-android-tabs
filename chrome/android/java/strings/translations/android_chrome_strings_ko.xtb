@@ -5,7 +5,7 @@
 <translation id="1049743911850919806">시크릿</translation>
 <translation id="10614374240317010">저장되지 않음</translation>
 <translation id="1068672505746868501"><ph name="SOURCE_LANGUAGE" />로 된 페이지는 번역하지 않음</translation>
-<translation id="1080790410959514870"><ph name="DOMAIN_NAME" />에서 관리하는 계정에서 로그아웃합니다. 로그아웃하면 이 기기에 저장된 Brave 데이터는 삭제되지만 Google 계정에는 데이터가 남습니다.</translation>
+<translation id="8784648104998871944"><ph name="DOMAIN_NAME" />에서 관리하는 계정에서 로그아웃합니다. 로그아웃하면 이 기기에 저장된 Brave 데이터는 삭제되지만 Google 계정에는 데이터가 남습니다.</translation>
 <translation id="1111673857033749125">다른 기기에서 저장한 북마크가 여기에 표시됩니다.</translation>
 <translation id="1121094540300013208">사용 및 비정상 종료 보고서</translation>
 <translation id="1137305377394488060">지난 1시간</translation>
@@ -44,7 +44,7 @@
 <translation id="1384959399684842514">다운로드 일시중지됨</translation>
 <translation id="1389974829397082527">이 폴더에는 북마크가 없습니다.</translation>
 <translation id="1397811292916898096"><ph name="PRODUCT_NAME" />에서 검색</translation>
-<translation id="1402229579576898974">Brave 추천 페이지 <ph name="NUMBER_OF_SUGGESTIONS" />개</translation>
+<translation id="742156408042953343">Brave 추천 페이지 <ph name="NUMBER_OF_SUGGESTIONS" />개</translation>
 <translation id="1404122904123200417"><ph name="WEBSITE_URL" />에 포함됨</translation>
 <translation id="1406000523432664303">'추적 안함'</translation>
 <translation id="1407135791313364759">모두 열기</translation>
@@ -195,7 +195,7 @@
 <translation id="2913331724188855103">사이트에서 쿠키 데이터를 저장하고 읽도록 허용(권장)</translation>
 <translation id="2932150158123903946">Google <ph name="APP_NAME" /> 저장공간</translation>
 <translation id="2956410042958133412"><ph name="PARENT_NAME_1" />님과 <ph name="PARENT_NAME_2" />님이 관리하는 계정입니다.</translation>
-<translation id="2960796085439532066">Copyright <ph name="YEAR" /> Brave Software Inc. All rights reserved.</translation>
+<translation id="4651430425715739110">Copyright <ph name="YEAR" /> Brave Software Inc. All rights reserved.</translation>
 <translation id="2962095958535813455">시크릿 탭으로 전환됨</translation>
 <translation id="2968755619301702150">인증서 뷰어</translation>
 <translation id="2979025552038692506">선택된 시크릿 탭</translation>
@@ -368,7 +368,7 @@
 <translation id="4699172675775169585">캐시된 이미지 또는 파일</translation>
 <translation id="4714588616299687897">데이터 최대 60% 절약</translation>
 <translation id="4720023427747327413"><ph name="PRODUCT_NAME" />에서 열기</translation>
-<translation id="4730876730346568982">동기화 계정을 <ph name="ACCOUNT_EMAIL_OLD" />에서 <ph name="ACCOUNT_EMAIL_NEW" />(으)로 전환합니다. 기존 Brave 데이터는 <ph name="MANAGED_DOMAIN" />에서 관리됩니다. 이렇게 하면 데이터가 이 기기에서 삭제되지만 <ph name="ACCOUNT_EMAIL_OLD" />에는 그대로 유지됩니다.</translation>
+<translation id="5256318321573414162">동기화 계정을 <ph name="ACCOUNT_EMAIL_OLD" />에서 <ph name="ACCOUNT_EMAIL_NEW" />(으)로 전환합니다. 기존 Brave 데이터는 <ph name="MANAGED_DOMAIN" />에서 관리됩니다. 이렇게 하면 데이터가 이 기기에서 삭제되지만 <ph name="ACCOUNT_EMAIL_OLD" />에는 그대로 유지됩니다.</translation>
 <translation id="473775607612524610">업데이트</translation>
 <translation id="4738836084190194332">마지막 동기화 시간: <ph name="WHEN" /></translation>
 <translation id="4749960740855309258">새 탭 열기</translation>
@@ -388,7 +388,7 @@
 <translation id="4915549754973153784">기기를 검색할 때 <ph name="BEGIN_LINK" />도움말 보기<ph name="END_LINK" />...</translation>
 <translation id="4943872375798546930">검색결과가 없습니다.</translation>
 <translation id="4958708863221495346"><ph name="URL_OF_THE_CURRENT_TAB" />에서 내 화면을 공유하는 중입니다.</translation>
-<translation id="4961700429721424617"><ph name="MANAGED_DOMAIN" />에서 관리하는 계정에서 로그아웃합니다. 이렇게 하면 내 Brave 데이터가 이 기기에서 삭제되지만 Google 계정에는 그대로 유지됩니다.</translation>
+<translation id="4055249017576903376"><ph name="MANAGED_DOMAIN" />에서 관리하는 계정에서 로그아웃합니다. 이렇게 하면 내 Brave 데이터가 이 기기에서 삭제되지만 Google 계정에는 그대로 유지됩니다.</translation>
 <translation id="497421865427891073">앞으로 이동</translation>
 <translation id="4988526792673242964">페이지</translation>
 <translation id="4996978546172906250">공유 방법</translation>
@@ -813,7 +813,7 @@
 <translation id="8981454092730389528">Google 활동 제어</translation>
 <translation id="8986494364107987395">사용 통계 및 비정상 종료 보고서를 Google에 자동으로 보내기</translation>
 <translation id="8993760627012879038">시크릿 모드로 새 탭 열기</translation>
-<translation id="8998729206196772491"><ph name="MANAGED_DOMAIN" />에서 관리하는 계정으로 로그인합니다. 계정 관리자가 내 Brave 데이터를 관리하게 되며 데이터는 이 계정에 영구적으로 연결됩니다. Brave에서 로그아웃하면 데이터가 이 기기에서 삭제되지만 Google 계정에는 그대로 유지됩니다.</translation>
+<translation id="6902256485508683865"><ph name="MANAGED_DOMAIN" />에서 관리하는 계정으로 로그인합니다. 계정 관리자가 내 Brave 데이터를 관리하게 되며 데이터는 이 계정에 영구적으로 연결됩니다. Brave에서 로그아웃하면 데이터가 이 기기에서 삭제되지만 Google 계정에는 그대로 유지됩니다.</translation>
 <translation id="9019902583201351841">부모님이 관리합니다.</translation>
 <translation id="9038649477754266430">빠른 페이지 로드를 위해 예상 검색어 서비스 사용</translation>
 <translation id="9050666287014529139">암호</translation>

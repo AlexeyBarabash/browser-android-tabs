@@ -5,7 +5,7 @@
 <translation id="1049743911850919806">التصفح المتخفي</translation>
 <translation id="10614374240317010">لم يتم الحفظ مطلقًا</translation>
 <translation id="1068672505746868501">عدم ترجمة الصفحات باللغة <ph name="SOURCE_LANGUAGE" /> مُطلقًا</translation>
-<translation id="1080790410959514870">‏أنت بصدد الخروج من حساب تحت إدارة <ph name="DOMAIN_NAME" />. سيؤدي هذا إلى حذف بيانات Brave المخزنة على هذا الجهاز، إلا أن البيانات ستظل في حسابك على Google.</translation>
+<translation id="8784648104998871944">‏أنت بصدد الخروج من حساب تحت إدارة <ph name="DOMAIN_NAME" />. سيؤدي هذا إلى حذف بيانات Brave المخزنة على هذا الجهاز، إلا أن البيانات ستظل في حسابك على Google.</translation>
 <translation id="1111673857033749125">ستظهر هنا الإشارات التي تم حفظها على أجهزتك الأخرى.</translation>
 <translation id="1121094540300013208">تقارير الاستخدام والأعطال</translation>
 <translation id="1137305377394488060">الساعة الماضية</translation>
@@ -44,7 +44,7 @@
 <translation id="1384959399684842514">توقف التنزيل مؤقتًا</translation>
 <translation id="1389974829397082527">ليست هناك إشارات مرجعية هنا</translation>
 <translation id="1397811292916898096">البحث باستخدام <ph name="PRODUCT_NAME" /></translation>
-<translation id="1402229579576898974">‏<ph name="NUMBER_OF_SUGGESTIONS" /> من اقتراحات Brave</translation>
+<translation id="742156408042953343">‏<ph name="NUMBER_OF_SUGGESTIONS" /> من اقتراحات Brave</translation>
 <translation id="1404122904123200417">تم التضمين في <ph name="WEBSITE_URL" /></translation>
 <translation id="1406000523432664303">"عدم التعقب"</translation>
 <translation id="1407135791313364759">فتح الكل</translation>
@@ -195,7 +195,7 @@
 <translation id="2913331724188855103">السماح للمواقع بحفظ بيانات ملفات تعريف الارتباط وقراءتها (موصى به)</translation>
 <translation id="2932150158123903946">‏سعة تخزين <ph name="APP_NAME" /> Google</translation>
 <translation id="2956410042958133412">تتم إدارة هذا الحساب بواسطة <ph name="PARENT_NAME_1" /> و <ph name="PARENT_NAME_2" />.</translation>
-<translation id="2960796085439532066">‏حقوق الطبع والنشر لعام <ph name="YEAR" /> لصالح شركة .Brave Software Inc. جميع الحقوق محفوظة.</translation>
+<translation id="4651430425715739110">‏حقوق الطبع والنشر لعام <ph name="YEAR" /> لصالح شركة .Brave Software Inc. جميع الحقوق محفوظة.</translation>
 <translation id="2962095958535813455">تم التبديل إلى علامات تبويب التصفح المتخفي</translation>
 <translation id="2968755619301702150">عارض الشهادات</translation>
 <translation id="2979025552038692506">علامة تبويب محددة للتصفح المتخفي</translation>
@@ -369,7 +369,7 @@
 <translation id="4699172675775169585">الصور والملفات المخزنة مؤقتًا</translation>
 <translation id="4714588616299687897">توفير ما يصل إلى 60% من بياناتك</translation>
 <translation id="4720023427747327413">الفتح في <ph name="PRODUCT_NAME" /></translation>
-<translation id="4730876730346568982">‏أنت تجري تبديلاً لحسابات المزامنة من <ph name="ACCOUNT_EMAIL_OLD" /> إلى <ph name="ACCOUNT_EMAIL_NEW" />. يتم إدارة بيانات Brave الحالية من خلال <ph name="MANAGED_DOMAIN" />. سيؤدي ذلك إلى حذف بياناتك من هذا الجهاز، ولكن ستظل بياناتك في <ph name="ACCOUNT_EMAIL_OLD" />.</translation>
+<translation id="5256318321573414162">‏أنت تجري تبديلاً لحسابات المزامنة من <ph name="ACCOUNT_EMAIL_OLD" /> إلى <ph name="ACCOUNT_EMAIL_NEW" />. يتم إدارة بيانات Brave الحالية من خلال <ph name="MANAGED_DOMAIN" />. سيؤدي ذلك إلى حذف بياناتك من هذا الجهاز، ولكن ستظل بياناتك في <ph name="ACCOUNT_EMAIL_OLD" />.</translation>
 <translation id="473775607612524610">تحديث</translation>
 <translation id="4738836084190194332">آخر مزامنة: <ph name="WHEN" /></translation>
 <translation id="4749960740855309258">فتح علامة تبويب جديدة</translation>
@@ -389,7 +389,7 @@
 <translation id="4915549754973153784"><ph name="BEGIN_LINK" />الحصول على مساعدة<ph name="END_LINK" /> أثناء البحث عن الأجهزة…</translation>
 <translation id="4943872375798546930">لا نتائج</translation>
 <translation id="4958708863221495346">يشارك <ph name="URL_OF_THE_CURRENT_TAB" /> شاشتك</translation>
-<translation id="4961700429721424617">‏أنت بصدد الخروج من حساب تتم إدارته من خلال <ph name="MANAGED_DOMAIN" />. سيؤدي ذلك إلى حذف بيانات Brave من هذا الجهاز، ولكن ستظل البيانات في حسابك في Google.</translation>
+<translation id="4055249017576903376">‏أنت بصدد الخروج من حساب تتم إدارته من خلال <ph name="MANAGED_DOMAIN" />. سيؤدي ذلك إلى حذف بيانات Brave من هذا الجهاز، ولكن ستظل البيانات في حسابك في Google.</translation>
 <translation id="497421865427891073">انتقال للأمام</translation>
 <translation id="4988526792673242964">صفحات</translation>
 <translation id="4996978546172906250">مشاركة عن طريق</translation>
@@ -814,7 +814,7 @@
 <translation id="8981454092730389528">‏عناصر التحكم في النشاط على Google</translation>
 <translation id="8986494364107987395">‏إرسال إحصائيات الاستخدام وتقارير الأعطال إلى Google تلقائيًا</translation>
 <translation id="8993760627012879038">فتح علامة تبويب جديدة في وضع التصفّح المتخفّي</translation>
-<translation id="8998729206196772491">‏يتم تسجيل دخولك باستخدام حساب تتم إدارته من خلال <ph name="MANAGED_DOMAIN" /> ومنح مشرفه الحق في التحكم في بياناتك على Brave. سيؤدي ذلك إلى جعل بياناتك مرتبطة دائمًا بهذا الحساب. كما سيؤدي الخروج من Brave إلى حذف بياناتك من هذا الجهاز، ولكن ستظل هذه البيانات مخزَّنة على حسابك في Google.</translation>
+<translation id="6902256485508683865">‏يتم تسجيل دخولك باستخدام حساب تتم إدارته من خلال <ph name="MANAGED_DOMAIN" /> ومنح مشرفه الحق في التحكم في بياناتك على Brave. سيؤدي ذلك إلى جعل بياناتك مرتبطة دائمًا بهذا الحساب. كما سيؤدي الخروج من Brave إلى حذف بياناتك من هذا الجهاز، ولكن ستظل هذه البيانات مخزَّنة على حسابك في Google.</translation>
 <translation id="9019902583201351841">يديره والداك</translation>
 <translation id="9038649477754266430">استخدام إحدى خدمات التوقع لتحميل الصفحات بسرعة أكبر</translation>
 <translation id="9050666287014529139">عبارة المرور</translation>
