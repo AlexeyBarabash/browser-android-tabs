@@ -75,6 +75,9 @@ enum ContentSettingsType {
   // sound. This will not block playback but instead the user will not hear it.
   CONTENT_SETTINGS_TYPE_SOUND,
 
+  // This content setting type is for displaying desktop version of the website
+  CONTENT_SETTINGS_TYPE_DESKTOP_VIEW,
+
   CONTENT_SETTINGS_NUM_TYPES,
 };
 
