@@ -1580,6 +1580,19 @@ public class ChromeTabbedActivity
                     }
                 }
             }
+
+            @Override
+            public void onPreLoadUrl(Tab tab, LoadUrlParams params) {
+              if (false == tab.isDesktopModeOverridenByTab()) {
+                  final boolean desktopViewFromSettings = PrefServiceBridge.getInstance().desktopViewEnabled();
+                  if (desktopViewFromSettings && !tab.getUseDesktopUserAgent()) {
+                      tab.setUseDesktopUserAgent(true, false);
+                  }
+                  else {
+                      tab.setUseDesktopUserAgent(false, false);
+                  }
+              }
+            }
         };
 
         if (startIncognito) mTabModelSelectorImpl.selectModel(true);
