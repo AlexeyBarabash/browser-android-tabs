@@ -171,7 +171,7 @@ by a child template that "extends" this file.
             android:excludeFromRecents="true"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize">
         </activity>
-        <activity-alias android:name="com.google.android.apps.chrome.Main"
+        <activity-alias android:name="com.brave.browser-android-tabs.Main"
             android:targetActivity="org.chromium.chrome.browser.document.ChromeLauncherActivity"
             android:exported="true">
             <intent-filter>
