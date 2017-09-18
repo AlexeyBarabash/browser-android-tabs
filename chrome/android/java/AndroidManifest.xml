@@ -172,7 +172,7 @@ by a child template that "extends" this file.
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize">
         </activity>
         <activity-alias android:name="com.google.android.apps.chrome.Main"
-            android:targetActivity="org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            android:targetActivity="com.google.android.apps.chrome.Main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
