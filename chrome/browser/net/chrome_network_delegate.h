@@ -20,7 +20,6 @@
 #include "components/domain_reliability/monitor.h"
 #include "components/prefs/pref_member.h"
 #include "net/base/network_delegate_impl.h"
-#include "chrome/browser/net/blockers/blockers_worker.h"
 
 class ChromeExtensionsNetworkDelegate;
 class PrefService;
@@ -48,6 +47,9 @@ class InfoMap;
 
 namespace net {
 class URLRequest;
+namespace blockers {
+class BlockersWorker;
+}
 }
 
 namespace policy {
@@ -134,6 +136,9 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   void set_data_use_aggregator(
       data_usage::DataUseAggregator* data_use_aggregator,
       bool is_data_usage_off_the_record);
+
+  void set_blockers_worker(
+        std::shared_ptr<net::blockers::BlockersWorker> blockers_worker);
 
   // Binds the pref members to |pref_service| and moves them to the IO thread.
   // |enable_referrers| cannot be nullptr, the others can.
@@ -252,7 +257,7 @@ class ChromeNetworkDelegate : public net::NetworkDelegateImpl {
   bool is_data_usage_off_the_record_;
 
   // Blockers
-  net::blockers::BlockersWorker blockers_worker_;
+  std::shared_ptr<net::blockers::BlockersWorker> blockers_worker_;
 
   // (TODO)find a better way to handle last first party
   GURL last_first_party_url_;

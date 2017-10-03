@@ -29,6 +29,7 @@
 #include "chrome/browser/content_settings/cookie_settings_factory.h"
 #include "chrome/browser/content_settings/tab_specific_content_settings.h"
 #include "chrome/browser/custom_handlers/protocol_handler_registry.h"
+#include "chrome/browser/net/blockers/blockers_worker.h"
 #include "chrome/browser/net/chrome_extensions_network_delegate.h"
 #include "chrome/browser/net/request_source_bandwidth_histograms.h"
 #include "chrome/browser/profiles/profile_manager.h"
@@ -185,6 +186,11 @@ void ChromeNetworkDelegate::set_data_use_aggregator(
   is_data_usage_off_the_record_ = is_data_usage_off_the_record;
 }
 
+void ChromeNetworkDelegate::set_blockers_worker(
+  std::shared_ptr<net::blockers::BlockersWorker> blockers_worker) {
+  blockers_worker_ = blockers_worker;
+}
+
 // static
 void ChromeNetworkDelegate::InitializePrefsOnUIThread(
     BooleanPrefMember* enable_referrers,
@@ -316,7 +322,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest(
       && isGlobalBlockEnabled
       && blockAdsAndTracking
       && isTPEnabled
-			&& blockers_worker_.shouldTPBlockUrl(
+			&& blockers_worker_->shouldTPBlockUrl(
 					firstparty_host,
 					request->url().host())
 				) {
@@ -341,7 +347,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest(
       && isAdBlockEnabled
       && request
       && info
-			&& blockers_worker_.shouldAdBlockUrl(
+			&& blockers_worker_->shouldAdBlockUrl(
 					firstparty_host,
 					request->url().spec(),
 					(unsigned int)info->GetResourceType(),
@@ -364,7 +370,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest(
       && isHTTPSEEnabled
       && check_httpse_redirect
       && (shieldsSetExplicitly || (enable_httpse_ && enable_httpse_->GetValue()))) {
-    std::string newURL = blockers_worker_.getHTTPSURL(&request->url());
+    std::string newURL = blockers_worker_->getHTTPSURL(&request->url());
     if (newURL != request->url().spec()) {
       *new_url = GURL(newURL);
       if (last_first_party_url_ != request->url()) {

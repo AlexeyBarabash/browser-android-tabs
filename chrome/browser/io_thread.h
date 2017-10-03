@@ -166,6 +166,9 @@ class IOThread : public content::BrowserThreadDelegate {
 
     // Enables Brotli Content-Encoding support
     bool enable_brotli;
+
+    // BlockersWorker instance for blocking
+    std::shared_ptr<net::blockers::BlockersWorker> blockers_worker_;
   };
 
   // |net_log| must either outlive the IOThread or be NULL.

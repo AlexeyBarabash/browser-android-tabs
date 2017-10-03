@@ -282,6 +282,7 @@ namespace blockers {
 
     bool BlockersWorker::shouldAdBlockUrl(const std::string& base_host, const std::string& url,
                                           unsigned int resource_type, bool isAdBlockRegionalEnabled) {
+        base::ThreadRestrictions::ScopedAllowIO allowIo;
         if (!InitAdBlock()) {
             return false;
         }
@@ -363,6 +364,7 @@ namespace blockers {
     }
 
     bool BlockersWorker::shouldTPBlockUrl(const std::string& base_host, const std::string& host) {
+        base::ThreadRestrictions::ScopedAllowIO allowIo;
         if (!InitTP()) {
             return false;
         }
@@ -395,6 +397,7 @@ namespace blockers {
     }
 
     std::string BlockersWorker::getHTTPSURL(const GURL* url) {
+        base::ThreadRestrictions::ScopedAllowIO allowIo;
         if (nullptr == url
           || url->scheme() == "https"
           || !InitHTTPSE()) {
