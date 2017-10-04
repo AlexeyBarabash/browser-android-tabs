@@ -821,11 +821,7 @@ void ChromeNetworkDelegate::OnCompleted(net::URLRequest* request,
 }
 
 void ChromeNetworkDelegate::OnURLRequestDestroyed(net::URLRequest* request) {
-  if (pending_requests_->IsPendingAndAlive(request->identifier())) {
-    LOG(ERROR) << "AB: ChromeNetworkDelegate::OnURLRequestDestroyed pending is " << request->identifier() << " PID=" << getpid() << " tid="<< gettid();;
-  }
   pending_requests_->Destroy(request->identifier());
-
   extensions_delegate_->OnURLRequestDestroyed(request);
 }
 
@@ -1051,12 +1047,8 @@ void ChromeNetworkDelegate::ReportDataUsageStats(net::URLRequest* request,
 
 bool ChromeNetworkDelegate::PendedRequestIsDestroyedOrCancelled(OnBeforeURLRequestContext* ctx, net::URLRequest* request) {
   if (ctx->pendingAtLeastOnce) {
-    if ( !pending_requests_->IsPendingAndAlive(ctx->request_identifier)){
-      LOG(ERROR) << "AB: request " << ctx->request_identifier << "has been destroyed while being pended" << " PID=" << getpid() << " tid="<< gettid();
-      return true;
-    }
-    if (request->status().status() == net::URLRequestStatus::CANCELED) {
-      LOG(ERROR) << "AB: request  " << ctx->request_identifier << " is cancelled" << " PID=" << getpid() << " tid="<< gettid();
+    if ( !pending_requests_->IsPendingAndAlive(ctx->request_identifier)
+      || request->status().status() == net::URLRequestStatus::CANCELED) {
       return true;
     }
   }
