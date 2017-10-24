@@ -67,7 +67,6 @@ Profile* GetOriginalProfile() {
 }
 
 bool GetBooleanForContentSetting(ContentSettingsType type) {
-
   HostContentSettingsMap* content_settings =
       HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
   switch (content_settings->GetDefaultContentSetting(type, NULL)) {
