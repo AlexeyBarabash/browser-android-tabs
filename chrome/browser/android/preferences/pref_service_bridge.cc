@@ -67,6 +67,7 @@ Profile* GetOriginalProfile() {
 }
 
 bool GetBooleanForContentSetting(ContentSettingsType type) {
+
   HostContentSettingsMap* content_settings =
       HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
   switch (content_settings->GetDefaultContentSetting(type, NULL)) {
@@ -172,7 +173,24 @@ static void SetContentSettingForPattern(JNIEnv* env,
                                         const JavaParamRef<jstring>& pattern,
                                         int setting) {
   HostContentSettingsMap* host_content_settings_map =
-      HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+       HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  host_content_settings_map->SetContentSettingCustomScope(
+      ContentSettingsPattern::FromString(ConvertJavaStringToUTF8(env, pattern)),
+      ContentSettingsPattern::Wildcard(),
+      static_cast<ContentSettingsType>(content_settings_type), std::string(),
+      static_cast<ContentSetting>(setting));
+}
+
+static void SetContentSettingForPatternIncognito(JNIEnv* env,
+                                        const JavaParamRef<jobject>& obj,
+                                        int content_settings_type,
+                                        const JavaParamRef<jstring>& pattern,
+                                        int setting) {
+  Profile *profile = GetOriginalProfile()->GetOffTheRecordProfile();
+
+  HostContentSettingsMap* host_content_settings_map =
+    HostContentSettingsMapFactory::GetForProfile(profile);
+
   host_content_settings_map->SetContentSettingCustomScope(
       ContentSettingsPattern::FromString(ConvertJavaStringToUTF8(env, pattern)),
       ContentSettingsPattern::Wildcard(),
@@ -186,6 +204,26 @@ static void GetContentSettingsExceptions(JNIEnv* env,
                                          const JavaParamRef<jobject>& list) {
   HostContentSettingsMap* host_content_settings_map =
       HostContentSettingsMapFactory::GetForProfile(GetOriginalProfile());
+  ContentSettingsForOneType entries;
+  host_content_settings_map->GetSettingsForOneType(
+      static_cast<ContentSettingsType>(content_settings_type), "", &entries);
+  for (size_t i = 0; i < entries.size(); ++i) {
+    Java_PrefServiceBridge_addContentSettingExceptionToList(
+        env, list, content_settings_type,
+        ConvertUTF8ToJavaString(env, entries[i].primary_pattern.ToString()),
+        entries[i].GetContentSetting(),
+        ConvertUTF8ToJavaString(env, entries[i].source));
+  }
+}
+
+static void GetContentSettingsExceptionsIncognito(JNIEnv* env,
+                                         const JavaParamRef<jobject>& obj,
+                                         int content_settings_type,
+                                         const JavaParamRef<jobject>& list) {
+  Profile *profile = GetOriginalProfile()->GetOffTheRecordProfile();
+
+  HostContentSettingsMap* host_content_settings_map =
+      HostContentSettingsMapFactory::GetForProfile(profile);
   ContentSettingsForOneType entries;
   host_content_settings_map->GetSettingsForOneType(
       static_cast<ContentSettingsType>(content_settings_type), "", &entries);

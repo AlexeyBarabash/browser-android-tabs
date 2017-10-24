@@ -75,7 +75,7 @@ public class BraveShieldsMenuHandler {
         mMenuObserver = menuObserver;
     }
 
-    public void show(View anchorView, String host, int adsAndTrackers
+    public void show(View anchorView, boolean incognitoTab, String host, int adsAndTrackers
             , int httpsUpgrades, int scriptsBlocked, int fingerprintsBlocked) {
 
         int rotation = mActivity.getWindowManager().getDefaultDisplay().getRotation();
@@ -175,6 +175,7 @@ public class BraveShieldsMenuHandler {
         mAdapter = new BraveShieldsMenuAdapter(menuItems,
             LayoutInflater.from(wrapper), mMenuObserver, mPopup,
             currentDisplayWidth);
+        mAdapter.setIncognitoTab(incognitoTab);
         mPopup.setAdapter(mAdapter);
         setMenuHeight(menuItems.size(), appRect, pt.y, sizingPadding, 0,
             wrapper);

@@ -34,7 +34,7 @@ class CookieSettingsTest : public testing::Test {
         &prefs_, false /* incognito_profile */, false /* guest_profile */,
         false /* store_last_modified */);
     cookie_settings_ =
-        new CookieSettings(settings_map_.get(), &prefs_, "chrome-extension");
+        new CookieSettings(settings_map_.get(), &prefs_, "chrome-extension", false);
   }
 
   ~CookieSettingsTest() override { settings_map_->ShutdownOnUIThread(); }

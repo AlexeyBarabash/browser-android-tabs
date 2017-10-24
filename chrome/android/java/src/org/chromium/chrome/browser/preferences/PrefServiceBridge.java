@@ -158,6 +158,17 @@ public final class PrefServiceBridge {
         return list;
     }
 
+    /**
+     * Returns all the currently saved exceptions for a given content settings type,
+     * from incognito profile.
+     * @param contentSettingsType The type to fetch exceptions for.
+     */
+    public List<ContentSettingException> getContentSettingsExceptionsIncognito(int contentSettingsType) {
+        List<ContentSettingException> list = new ArrayList<ContentSettingException>();
+        nativeGetContentSettingsExceptionsIncognito(contentSettingsType, list);
+        return list;
+    }
+
     @CalledByNative
     private static void addContentSettingExceptionToList(
             ArrayList<ContentSettingException> list,
@@ -972,8 +983,13 @@ public final class PrefServiceBridge {
     private native void nativeSetContentSettingEnabled(int contentSettingType, boolean allow);
     private native void nativeGetContentSettingsExceptions(
             int contentSettingsType, List<ContentSettingException> list);
+    private native void nativeGetContentSettingsExceptionsIncognito(
+            int contentSettingsType, List<ContentSettingException> list);
     public native void nativeSetContentSettingForPattern(
             int contentSettingType, String pattern, int setting);
+    public native void nativeSetContentSettingForPatternIncognito(
+            int contentSettingType, String pattern, int setting);
+
 
     /**
       * @return Whether usage and crash reporting pref is enabled.
