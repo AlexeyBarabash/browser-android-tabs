@@ -40,11 +40,13 @@ namespace content_settings {
 CookieSettings::CookieSettings(
     HostContentSettingsMap* host_content_settings_map,
     PrefService* prefs,
-    const char* extension_scheme)
+    const char* extension_scheme,
+    const bool &incognito)
     : host_content_settings_map_(host_content_settings_map),
       extension_scheme_(extension_scheme),
       block_third_party_cookies_(
-          prefs->GetBoolean(prefs::kBlockThirdPartyCookies)) {
+          prefs->GetBoolean(prefs::kBlockThirdPartyCookies)),
+      incognito_(incognito) {
   pref_change_registrar_.Init(prefs);
   pref_change_registrar_.Add(
       prefs::kBlockThirdPartyCookies,
@@ -188,7 +190,7 @@ bool CookieSettings::ShouldBlockThirdPartyCookies(const GURL& first_party_url) {
     previous_first_party_host_ = host;
   }
   if (nullptr != shieldsConfig && 0 != host.length()) {
-    std::string hostConfig = shieldsConfig->getHostSettings(host);
+    std::string hostConfig = shieldsConfig->getHostSettings(incognito_, host);
     if (hostConfig.length() == 11) {
       if ('1' == hostConfig[0]) {
         if ('0' == hostConfig[8]) {

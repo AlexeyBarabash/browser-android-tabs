@@ -120,6 +120,11 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
     private Switch mBraveShieldsFingerprintsSwitch = null;
     private OnCheckedChangeListener mBraveShieldsFingerprintsChangeListener = null;
 
+    private boolean mIncognitoTab = false;
+    public void setIncognitoTab(final boolean incognitoTab) {
+        mIncognitoTab = incognitoTab;
+    }
+
     public BraveShieldsMenuAdapter(List<MenuItem> menuItems,
             LayoutInflater inflater,
             BraveShieldsMenuObserver menuObserver,
@@ -360,8 +365,8 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
         if (0 != host.length()) {
             ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
             if (null != app) {
-                if (app.getShieldsConfig().isTopShieldsEnabled(host)) {
-                    if (app.getShieldsConfig().blockAdsAndTracking(host)) {
+                if (app.getShieldsConfig().isTopShieldsEnabled(mIncognitoTab, host)) {
+                    if (app.getShieldsConfig().blockAdsAndTracking(mIncognitoTab, host)) {
                         braveShieldsAdsTrackingSwitch.setChecked(true);
                     } else {
                         braveShieldsAdsTrackingSwitch.setChecked(false);
@@ -396,7 +401,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
                     if (null != app) {
                         MixPanelWorker.SendEvent("Shield Block Ads and Tracking Changed", "Block Ads and Tracking", isChecked);
-                        app.getShieldsConfig().setAdsAndTracking(host, isChecked);
+                        app.getShieldsConfig().setAdsAndTracking(mIncognitoTab, host, isChecked);
                         if (null != mMenuObserver) {
                             mMenuObserver.onMenuTopShieldsChanged(isChecked, false);
                         }
@@ -423,8 +428,8 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
         if (0 != host.length()) {
             ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
             if (null != app) {
-                if (app.getShieldsConfig().isTopShieldsEnabled(host)) {
-                    if (app.getShieldsConfig().isHTTPSEverywhereEnabled(host)) {
+                if (app.getShieldsConfig().isTopShieldsEnabled(mIncognitoTab, host)) {
+                    if (app.getShieldsConfig().isHTTPSEverywhereEnabled(mIncognitoTab, host)) {
                         braveShieldsHTTPSEverywhereSwitch.setChecked(true);
                     } else {
                         braveShieldsHTTPSEverywhereSwitch.setChecked(false);
@@ -459,7 +464,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
                     if (null != app) {
                         MixPanelWorker.SendEvent("Shield Fingerprinting Protection Changed", "Fingerprinting Protection", isChecked);
-                        app.getShieldsConfig().setBlockFingerprints(host, isChecked);
+                        app.getShieldsConfig().setBlockFingerprints(mIncognitoTab, host, isChecked);
                         if (null != mMenuObserver) {
                             mMenuObserver.onMenuTopShieldsChanged(isChecked, false);
                         }
@@ -486,8 +491,8 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
         if (0 != host.length()) {
             ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
             if (null != app) {
-                if (app.getShieldsConfig().isTopShieldsEnabled(host)) {
-                    if (app.getShieldsConfig().blockFingerprints(host)) {
+                if (app.getShieldsConfig().isTopShieldsEnabled(mIncognitoTab, host)) {
+                    if (app.getShieldsConfig().blockFingerprints(mIncognitoTab, host)) {
                         braveShieldsFingerprintsSwitch.setChecked(true);
                     } else {
                         braveShieldsFingerprintsSwitch.setChecked(false);
@@ -522,7 +527,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
                     if (null != app) {
                         MixPanelWorker.SendEvent("Shield Block 3rd Party Cookies Changed", "Block 3rd Party Cookies", isChecked);
-                        app.getShieldsConfig().setBlock3rdPartyCookies(host, isChecked);
+                        app.getShieldsConfig().setBlock3rdPartyCookies(mIncognitoTab, host, isChecked);
                         if (null != mMenuObserver) {
                             mMenuObserver.onMenuTopShieldsChanged(isChecked, false);
                         }
@@ -549,8 +554,8 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
         if (0 != host.length()) {
             ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
             if (null != app) {
-                if (app.getShieldsConfig().isTopShieldsEnabled(host)) {
-                    if (app.getShieldsConfig().block3rdPartyCookies(host)) {
+                if (app.getShieldsConfig().isTopShieldsEnabled(mIncognitoTab, host)) {
+                    if (app.getShieldsConfig().block3rdPartyCookies(mIncognitoTab, host)) {
                         braveShieldsBlocking3rdPartyCookiesSwitch.setChecked(true);
                     } else {
                         braveShieldsBlocking3rdPartyCookiesSwitch.setChecked(false);
@@ -585,7 +590,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
                     if (null != app) {
                         MixPanelWorker.SendEvent("Shield Block Scripts Changed", "Block Scripts", isChecked);
-                        app.getShieldsConfig().setJavaScriptBlock(host, isChecked, false);
+                        app.getShieldsConfig().setJavaScriptBlock(mIncognitoTab, host, isChecked, false);
                         if (null != mMenuObserver) {
                             mMenuObserver.onMenuTopShieldsChanged(isChecked, false);
                         }
@@ -612,8 +617,8 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
         if (0 != host.length()) {
             ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
             if (null != app) {
-                if (app.getShieldsConfig().isTopShieldsEnabled(host)) {
-                    if (!app.getShieldsConfig().isJavaScriptEnabled(host)) {
+                if (app.getShieldsConfig().isTopShieldsEnabled(mIncognitoTab, host)) {
+                    if (!app.getShieldsConfig().isJavaScriptEnabled(mIncognitoTab, host)) {
                         braveShieldsBlockingScriptsSwitch.setChecked(true);
                     } else {
                         braveShieldsBlockingScriptsSwitch.setChecked(false);
@@ -648,7 +653,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
                     if (null != app) {
                         MixPanelWorker.SendEvent("Shield HTTPS Everywhere Changed", "HTTPS Everywhere", isChecked);
-                        app.getShieldsConfig().setHTTPSEverywhere(host, isChecked);
+                        app.getShieldsConfig().setHTTPSEverywhere(mIncognitoTab, host, isChecked);
                         if (null != mMenuObserver) {
                             mMenuObserver.onMenuTopShieldsChanged(isChecked, false);
                         }
@@ -664,7 +669,6 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
         if (null == braveShieldsSwitch) {
             return;
         }
-
         String host = "";
         if (mMenuItems.size() > 1) {
             host = getItem(1).getTitle().toString();
@@ -672,7 +676,7 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
         if (0 != host.length()) {
             ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
             if (null != app) {
-                if (app.getShieldsConfig().isTopShieldsEnabled(host)) {
+                if (app.getShieldsConfig().isTopShieldsEnabled(mIncognitoTab, host)) {
                     braveShieldsSwitch.setChecked(true);
                 } else {
                     braveShieldsSwitch.setChecked(false);
@@ -691,8 +695,8 @@ class BraveShieldsMenuAdapter extends BaseAdapter {
                     ChromeApplication app = (ChromeApplication)ContextUtils.getApplicationContext();
                     if (null != app) {
                         MixPanelWorker.SendEvent("Top Shield Changed", "Top Shield", isChecked);
-                        app.getShieldsConfig().setTopHost(host, isChecked);
-                        app.getShieldsConfig().setJavaScriptBlock(host, isChecked, true);
+                        app.getShieldsConfig().setTopHost(mIncognitoTab, host, isChecked);
+                        app.getShieldsConfig().setJavaScriptBlock(mIncognitoTab, host, isChecked, true);
                         setupAdsTrackingSwitch(mBraveShieldsAdsTrackingSwitch, true);
                         setupHTTPSEverywhereSwitch(mBraveShieldsHTTPSEverywhereSwitch, true);
                         setupBlockingScriptsSwitch(mBraveShieldsBlockingScriptsSwitch, true);

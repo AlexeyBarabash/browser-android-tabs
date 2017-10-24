@@ -469,7 +469,7 @@ public class CustomTabActivity extends ChromeActivity {
                 if (getActivityTab() == tab) {
                     try {
                         URL urlCheck = new URL(url);
-                        setBraveShieldsColor(urlCheck.getHost());
+                        setBraveShieldsColor(tab.isIncognito(), urlCheck.getHost());
                     } catch (Exception e) {
                         setBraveShieldsBlackAndWhite();
                     }
@@ -483,7 +483,7 @@ public class CustomTabActivity extends ChromeActivity {
                 if (getActivityTab() == tab) {
                     try {
                         URL urlCheck = new URL(url);
-                        setBraveShieldsColor(urlCheck.getHost());
+                        setBraveShieldsColor(tab.isIncognito(), urlCheck.getHost());
                     } catch (Exception e) {
                         setBraveShieldsBlackAndWhite();
                     }
@@ -574,8 +574,9 @@ public class CustomTabActivity extends ChromeActivity {
                     try {
                         URL url = new URL(currentTab.getUrl());
 
-                        setBraveShieldsColor(url.getHost());
+                        setBraveShieldsColor(currentTab.isIncognito(), url.getHost());
                         getBraveShieldsMenuHandler().show((View)findViewById(R.id.brave_shields_button)
+                          , currentTab.isIncognito()
                           , url.getHost()
                           , currentTab.getAdsAndTrackers()
                           , currentTab.getHttpsUpgrades()

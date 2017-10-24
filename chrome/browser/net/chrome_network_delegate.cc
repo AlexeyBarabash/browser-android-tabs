@@ -209,7 +209,8 @@ ChromeNetworkDelegate::ChromeNetworkDelegate(
           base::CommandLine::ForCurrentProcess()->HasSwitch(
               switches::kEnableExperimentalWebPlatformFeatures)),
       data_use_aggregator_(nullptr),
-      is_data_usage_off_the_record_(true) {
+      is_data_usage_off_the_record_(true),
+      incognito_(false) {
   DCHECK(enable_referrers);
   extensions_delegate_.reset(
       ChromeExtensionsNetworkDelegate::Create(event_router));
@@ -243,6 +244,10 @@ void ChromeNetworkDelegate::set_data_use_aggregator(
 void ChromeNetworkDelegate::set_blockers_worker(
   std::shared_ptr<net::blockers::BlockersWorker> blockers_worker) {
   blockers_worker_ = blockers_worker;
+}
+
+void ChromeNetworkDelegate::set_incognito(const bool &incognito) {
+  incognito_ = incognito;
 }
 
 // static
@@ -351,7 +356,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
    net::blockers::ShieldsConfig* shieldsConfig =
      net::blockers::ShieldsConfig::getShieldsConfig();
    if (request && nullptr != shieldsConfig) {
-       std::string hostConfig = shieldsConfig->getHostSettings(ctx->firstparty_host);
+       std::string hostConfig = shieldsConfig->getHostSettings(incognito_, ctx->firstparty_host);
        // It is a length of ALL_SHIELDS_DEFAULT_MASK in ShieldsConfig.java
        if (hostConfig.length() == 11) {
          ctx->shieldsSetExplicitly  = true;
@@ -370,6 +375,7 @@ int ChromeNetworkDelegate::OnBeforeURLRequest_PreBlockersWork(
    } else if (nullptr == shieldsConfig){
        ctx->isGlobalBlockEnabled = false;
    }
+
    ctx->isValidUrl = true;
    if (request) {
        ctx->isValidUrl = request->url().is_valid();

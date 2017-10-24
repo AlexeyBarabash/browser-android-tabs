@@ -57,7 +57,7 @@ CookieSettingsFactory::BuildServiceInstanceFor(
       ios::ChromeBrowserState::FromBrowserState(context);
   return new content_settings::CookieSettings(
       ios::HostContentSettingsMapFactory::GetForBrowserState(browser_state),
-      browser_state->GetPrefs(), kDummyExtensionScheme);
+      browser_state->GetPrefs(), kDummyExtensionScheme, false);
 }
 
 }  // namespace ios

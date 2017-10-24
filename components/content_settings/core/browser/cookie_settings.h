@@ -32,7 +32,8 @@ class CookieSettings : public RefcountedKeyedService {
   // the whole lifetime of this instance.
   CookieSettings(HostContentSettingsMap* host_content_settings_map,
                  PrefService* prefs,
-                 const char* extension_scheme);
+                 const char* extension_scheme,
+                 const bool &incognito);
 
   // Returns the default content setting (CONTENT_SETTING_ALLOW,
   // CONTENT_SETTING_BLOCK, or CONTENT_SETTING_SESSION_ONLY) for cookies. If
@@ -116,6 +117,8 @@ class CookieSettings : public RefcountedKeyedService {
   bool block_third_party_cookies_;
 
   std::string previous_first_party_host_;
+
+  bool incognito_;
 
   DISALLOW_COPY_AND_ASSIGN(CookieSettings);
 };
