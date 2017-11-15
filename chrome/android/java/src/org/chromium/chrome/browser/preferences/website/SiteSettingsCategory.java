@@ -49,6 +49,7 @@ public class SiteSettingsCategory {
     public static final String CATEGORY_PROTECTED_MEDIA = "protected_content";
     public static final String CATEGORY_USE_STORAGE = "use_storage";
     public static final String CATEGORY_USB = "usb";
+    public static final String CATEGORY_PLAY_VIDEO_IN_BACKGROUND = "play_video_in_background";
 
     // The id of this category.
     private String mCategory;
@@ -128,6 +129,10 @@ public class SiteSettingsCategory {
             return new SiteSettingsCategory(CATEGORY_NOTIFICATIONS, "",
                     ContentSettingsType.CONTENT_SETTINGS_TYPE_NOTIFICATIONS);
         }
+        if (CATEGORY_PLAY_VIDEO_IN_BACKGROUND.equals(category)) {
+            return new SiteSettingsCategory(CATEGORY_PLAY_VIDEO_IN_BACKGROUND, "",
+                    ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND);
+        }
         if (CATEGORY_POPUPS.equals(category)) {
             return new SiteSettingsCategory(CATEGORY_POPUPS, "",
                     ContentSettingsType.CONTENT_SETTINGS_TYPE_POPUPS);
@@ -182,6 +187,9 @@ public class SiteSettingsCategory {
         }
         if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_NOTIFICATIONS) {
             return fromString(CATEGORY_NOTIFICATIONS);
+        }
+        if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND) {
+            return fromString(CATEGORY_PLAY_VIDEO_IN_BACKGROUND);
         }
         if (contentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_POPUPS) {
             return fromString(CATEGORY_POPUPS);
@@ -288,6 +296,13 @@ public class SiteSettingsCategory {
      */
     public boolean showDesktopViewSites() {
         return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_DESKTOP_VIEW;
+    }
+
+    /**
+     * Returns whether this category is the Play video in background.
+     */
+    public boolean showPlayVideoInBackground() {
+        return mContentSettingsType == ContentSettingsType.CONTENT_SETTINGS_TYPE_PLAY_VIDEO_IN_BACKGROUND;
     }
 
     /**
