@@ -3428,7 +3428,7 @@ Saved
         Experimental. Enables audio play from video in background when tab is not active or device screen is turned off. If it is not played still, try to switch page to desktop mode
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOTICE" desc="Text for message asked about browser relaunch to apply new settings">
-        Your changes will take effect the next time you restart your device
+        Your changes will take effect the next time you relaunch Brave
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOW" desc="Text on the button causes relaunch browser now">
         RELAUNCH NOW
