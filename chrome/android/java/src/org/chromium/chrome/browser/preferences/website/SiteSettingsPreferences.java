@@ -131,19 +131,16 @@ public class SiteSettingsPreferences extends PreferenceFragment
             //getPreferenceScreen().removePreference(findPreference(TRANSLATE_KEY));
             getPreferenceScreen().removePreference(findPreference(USB_KEY));
             getPreferenceScreen().removePreference(findPreference(DESKTOP_VIEW_SETTINGS_KEY));
-        } else {
-            // If both Autoplay and Protected Content menus are available, they'll be tucked under
-            // the Media key. Otherwise, we can remove the Media menu entry.
             if (!mProtectedContentMenuAvailable) {
-                getPreferenceScreen().removePreference(findPreference(MEDIA_KEY));
-                getPreferenceScreen().removePreference(findPreference(PROTECTED_CONTENT_KEY));
-            } else {
-                // These two will be tucked under the Media subkey, so no reason to show them now.
-                getPreferenceScreen().removePreference(findPreference(AUTOPLAY_KEY));
-                getPreferenceScreen().removePreference(findPreference(PROTECTED_CONTENT_KEY));
+              getPreferenceScreen().removePreference(findPreference(PROTECTED_CONTENT_KEY));
             }
+        } else {
+            // Now Media menu always has two submenus at least:
+            // Autoplay and Play Video in background.
+            // No need to extract Autoplay subitem
+            getPreferenceScreen().removePreference(findPreference(PROTECTED_CONTENT_KEY));
+            getPreferenceScreen().removePreference(findPreference(AUTOPLAY_KEY));
             getPreferenceScreen().removePreference(findPreference(PLAY_VIDEO_IN_BACKGROUND_KEY));
-
 
             // TODO(csharrison): Remove this condition once the experimental UI lands. It is not
             // great to dynamically remove the preference in this way.
@@ -165,16 +162,16 @@ public class SiteSettingsPreferences extends PreferenceFragment
         // Preferences that navigate to Website Settings.
         List<String> websitePrefs = new ArrayList<String>();
         if (mMediaSubMenu) {
-            websitePrefs.add(PROTECTED_CONTENT_KEY);
+            if (mProtectedContentMenuAvailable) {websitePrefs.add(PROTECTED_CONTENT_KEY);}
             websitePrefs.add(AUTOPLAY_KEY);
             websitePrefs.add(PLAY_VIDEO_IN_BACKGROUND_KEY);
         } else {
             if (SiteSettingsCategory.adsCategoryEnabled()) {
                 websitePrefs.add(ADS_KEY);
             }
-            // When showing the main menu, if Protected Content is not available, only Autoplay
-            // will be visible.
-            if (!mProtectedContentMenuAvailable) websitePrefs.add(AUTOPLAY_KEY);
+            // Now even if Protected Content is not available,
+            // there are two items at least. Media item will be shown.
+
             //websitePrefs.add(BACKGROUND_SYNC_KEY);
             websitePrefs.add(CAMERA_KEY);
             websitePrefs.add(COOKIES_KEY);
