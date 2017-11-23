@@ -3425,7 +3425,7 @@ Saved
         Disabled
       </message>
       <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_ENABLED" desc="Summary text describing what 'Video in background' preference does.">
-        Experimental. Enables play audio from video in background when tab is not active or device screen is turned off. If it is not played still, try to switch page to desktop mode
+        Experimental. Enables play audio from video in background when tab is not active or device screen is turned off. Try to switch to desktop mode if this feature is not working.
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOTICE" desc="Text for message asked about browser relaunch to apply new settings">
         Your changes will take effect the next time you relaunch Brave
