@@ -34,6 +34,7 @@ import org.chromium.chrome.R;
 import org.chromium.chrome.browser.help.HelpAndFeedback;
 import org.chromium.chrome.browser.media.cdm.MediaDrmCredentialManager;
 import org.chromium.chrome.browser.media.cdm.MediaDrmCredentialManager.MediaDrmCredentialManagerCallback;
+import org.chromium.chrome.browser.RestartWorker;
 import org.chromium.chrome.browser.preferences.ChromeBaseCheckBoxPreference;
 import org.chromium.chrome.browser.preferences.ChromeBasePreference;
 import org.chromium.chrome.browser.preferences.ChromeSwitchPreference;
@@ -511,6 +512,9 @@ public class SingleCategoryPreferences extends PreferenceFragment
                         (boolean) newValue);
             } else if (mCategory.showDesktopViewSites()) {
                 PrefServiceBridge.getInstance().setDesktopViewEnabled((boolean) newValue);
+            } else if (mCategory.showPlayVideoInBackground()) {
+                PrefServiceBridge.getInstance().setPlayVideoInBackgroundEnabled((boolean) newValue);
+                AskForRelaunch();
             }
 
             // Categories that support adding exceptions also manage the 'Add site' preference.
@@ -742,6 +746,8 @@ public class SingleCategoryPreferences extends PreferenceFragment
                             PrefServiceBridge.getInstance().isProtectedMediaIdentifierEnabled());
                 } else if (mCategory.showDesktopViewSites()) {
                     globalToggle.setChecked(PrefServiceBridge.getInstance().desktopViewEnabled());
+                } else if (mCategory.showPlayVideoInBackground()) {
+                    globalToggle.setChecked(PrefServiceBridge.getInstance().playVideoInBackgroundEnabled());
                 }
             }
         }
@@ -789,5 +795,26 @@ public class SingleCategoryPreferences extends PreferenceFragment
                 Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    private void AskForRelaunch() {
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this.getActivity());
+         alertDialogBuilder
+            .setMessage(R.string.settings_require_relaunch_notice)
+            .setCancelable(true)
+            .setPositiveButton(R.string.settings_require_relaunch_now, new DialogInterface.OnClickListener() {
+              public void onClick(DialogInterface dialog,int id) {
+                  RestartWorker restartWorker = new RestartWorker();
+                  restartWorker.Restart();
+                  dialog.cancel();
+              }
+            })
+            .setNegativeButton(R.string.settings_require_relaunch_later,new DialogInterface.OnClickListener() {
+              public void onClick(DialogInterface dialog,int id) {
+                  dialog.cancel();
+              }
+            });
+            AlertDialog alertDialog = alertDialogBuilder.create();
+            alertDialog.show();
     }
 }

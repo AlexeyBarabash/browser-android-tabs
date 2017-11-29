@@ -3414,6 +3414,29 @@ Saved
       <message name="IDS_BRAVE_SHIELDS_BLOCK_PHISHING_SWITCH" desc="Switch for Block Scripts.">
         Block Phishing
       </message>
+
+      <message name="IDS_PLAY_VIDEO_IN_BACKGROUND_TITLE" desc="Title of the setting for enabling play video in background [CHAR-LIMIT=32]">
+        Video in background
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_ENABLED_SUMMARY" desc="Summary text for 'Video in background' preference mode enabled">
+        Enabled
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_DISABLED_SUMMARY" desc="Summary text for 'Video in background' preference mode disabled">
+        Disabled
+      </message>
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PLAY_VIDEO_IN_BACKGROUND_ENABLED" desc="Summary text describing what 'Video in background' preference does.">
+        Experimental. Enables play audio from video in background when tab is not active or device screen is turned off. Try to switch to desktop mode if this feature is not working.
+      </message>
+      <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOTICE" desc="Text for message asked about browser relaunch to apply new settings">
+        Your changes will take effect the next time you relaunch Brave
+      </message>
+      <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOW" desc="Text on the button causes relaunch browser now">
+        RELAUNCH NOW
+      </message>
+      <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_LATER" desc="Text on the button allows to relaunch browser later">
+        LATER
+      </message>
+
     </messages>
   </release>
 </grit>
