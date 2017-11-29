@@ -925,8 +925,8 @@ Synchronisierungscode eingeben.</translation>
 <translation id="326454632686131209">Gerät synchronisieren</translation>
 <translation id="8985635554450124959">Synchronisierung konnte nicht eingerichtet werden</translation>
 <translation id="7713465482966886648">Synchronisierung wurde erfolgreich eingerichtet</translation>
-<translation id="1068083442730715531">Synchronisierung zurücksetzen...</translation>
-<translation id="6761015334234690567">Sind Sie sicher, dass Sie die Synchronisierungseinstellungen dieses Geräts zurücksetzen möchten?</translation>
+<translation id="1068083442730715531">Synchronisation zurücksetzen …</translation>
+<translation id="6761015334234690567">Sind Sie sicher, dass Sie die Synchronisationsseinstellungen dieses Geräts zurücksetzen möchten?</translation>
 <translation id="6244065453125065109">Tracker
 geblockt</translation>
 <translation id="2547939855139473800">Werbungen
@@ -942,9 +942,16 @@ gespart</translation>
 <translation id="1340503115760585811">Desktop-Ansicht für neue Tabs aktivieren</translation>
 <translation id="7924540991929826186">Mobilversionen von Webseiten für neue Tabs verwenden (empfohlen)</translation>
 <translation id="3834924998750356151">Blockiermonitor</translation>
-<translation id="1713450908129883784">Individuelle Steuerungselemente</translation>
+<translation id="1713450908129883784">Einzeleinstellungen</translation>
 <translation id="6303294677342628402">Schutzschilde</translation>
-<translation id="252011129655042182">Werbung und Tracking</translation>
-<translation id="6754976710186182237">Fingerabdruckmethoden</translation>
-<translation id="8585880402319729023">Phishing blockieren</translation>
+<translation id="252011129655042182">Werbungen und Tracker</translation>
+<translation id="6754976710186182237">Fingerprint-Methoden</translation>
+<translation id="8585880402319729023">Phishing blocken</translation>
+<translation id="4235790499274112499">Video im Hintergrund</translation>
+<translation id="59174027418879706">Aktiviert</translation>
+<translation id="4176463684765177261">Deaktiviert</translation>
+<translation id="1580125697191336644">Experimentell. Ermöglicht die Audio-Wiedergabe von im Hintergrund laufenden Videos, wenn der Tab nicht aktiv ist oder der Bildschirm des Geräts ausgeschaltet ist. Versuchen Sie, in den Desktop-Modus zu wechseln, wenn diese Funktion nicht funktioniert.</translation>
+<translation id="6587448235155023666">Ihre Änderungen werden mit dem nächsten Neustart von Brave wirksam.</translation>
+<translation id="8701563696941209024">JETZT NEUSTARTEN</translation>
+<translation id="834487290629916192">SPÄTER</translation>
 </translationbundle>
