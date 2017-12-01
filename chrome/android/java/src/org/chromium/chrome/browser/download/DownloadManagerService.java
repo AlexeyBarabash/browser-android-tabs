@@ -13,7 +13,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.FileUriExposedException;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
@@ -752,12 +751,6 @@ public class DownloadManagerService
                 : ApiCompatibilityUtils.getUriForDownloadedFile(new File(filePath));
         if (contentUri == null) return null;
 
-        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N &&
-            contentUri.getScheme().equals("file")) {
-            Log.w(TAG, "Got file scheme instead of content, uri " + contentUri);
-            return null;
-        }
-
         DownloadManager manager =
                 (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
         String mimeType = manager.getMimeTypeForDownloadedFile(downloadId);
@@ -769,7 +762,7 @@ public class DownloadManagerService
             Intent intent = null;
             try {
                 intent = DownloadUtils.getMediaViewerIntentForDownloadItem(fileUri, contentUri, mimeType);
-            } catch(FileUriExposedException e) {
+            } catch(Exception e) {
                 Log.w(TAG, "Exception while trying get media viewer intent " + e);
             }
             return intent;
